@@ -1,19 +1,18 @@
-# MBAI5310G-AI-Programming-Prabaseelan-Vettivelu
-Programming coursework for MBAI 5310G
-# Data Description
+# MBAI5310G - AI Programming
 
-## Dataset Name
-[Name of dataset]
+## Student Name
+Prabaseelan Vettivelu
 
-## Source
-[Dataset link or citation]
+## Course Name
+MBAI5310G - AI Programming
 
-## Access Notes
-The dataset is publicly available / available by request / not uploaded because of privacy or copyright restrictions.
+## Repository Description
+This repository is created for the MBAI5310G AI Programming course at Ontario Tech University.
 
-## Variables Used
-- variable_1: short description
-- variable_2: short description
-- target: short description
-## Privacy and Ethics Notes
-This project does not upload private or sensitive data to GitHub. Any limitations, possible bias, or privacy concerns are discussed in the notebook and README.
+It will be used to organize weekly coding assignments, practice exercises, and the final AI programming project completed throughout the course.
+
+## Purpose
+The purpose of this repository is to maintain a clear and organized record of my AI programming coursework and to build a professional portfolio of my work.
+
+## Privacy and Ethics Note
+No confidential, private, sensitive, or copyrighted data will be uploaded to this repository.
