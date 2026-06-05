@@ -312,7 +312,7 @@ This repository includes:
 * Business interpretation
 * Charts and outputs generated from the notebook
 
-Suggested repository structure:
+Repository structure:
 
 ```text
 Assignment4/
@@ -327,8 +327,7 @@ Assignment4/
     ├── training_testing_accuracy_comparison.png
     ├── confusion_matrix.png
     ├── top_10_feature_importances.png
-    ├── decision_tree_evaluation_results.csv
-    └── missing_value_filling_summary.csv
+   
 ```
 
 ---
