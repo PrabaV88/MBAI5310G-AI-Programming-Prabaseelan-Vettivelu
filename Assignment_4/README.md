@@ -315,18 +315,12 @@ This repository includes:
 Repository structure:
 
 ```text
-Assignment4/
+Assignment_4/
 │
 ├── FitLife_Decision_Tree_Assignment_Assignment4.ipynb
 ├── fitlife_membership_renewal_risk_dataset.xlsx
 ├── README.md
-├── Report - Decision Tree Model and Business Interpretation Based on a Business Plan.docx
-└── outputs/
-    ├── missing_values_by_column.png
-    ├── decision_tree_evaluation_metrics.png
-    ├── training_testing_accuracy_comparison.png
-    ├── confusion_matrix.png
-    ├── top_10_feature_importances.png
+└── Report - Decision Tree Model and Business Interpretation Based on a Business Plan.pdf
    
 ```
 
