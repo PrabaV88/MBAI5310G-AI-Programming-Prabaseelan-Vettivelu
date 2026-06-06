@@ -10,7 +10,19 @@ FitLife Studio is a fitness subscription business that provides membership plans
 
 The goal of this project is not only to build a machine learning model, but also to interpret the model results from a business perspective. The model helps FitLife Studio identify members who may need proactive retention support before they fail to renew.
 
+## Key Results
+
+- Testing Accuracy: 73.17%
+- Precision for Yes: 69.23%
+- Recall for Yes: 56.25%
+- F1-Score for Yes: 62.07%
+- Training Accuracy: 78.05%
+- Testing Accuracy: 73.17%
+- The model does not show strong signs of overfitting.
+
 ---
+
+
 
 ## 2. Business Problem
 
@@ -306,11 +318,10 @@ The model should support better decisions, not replace human decision-making.
 This repository includes:
 
 * Completed Jupyter Notebook
-* Dataset file, if allowed
+* Dataset file
 * README file
-* Model results
-* Business interpretation
-* Charts and outputs generated from the notebook
+* Business interpretation report
+* Model results, charts, and business interpretation included in the notebook and report
 
 Repository structure:
 
