@@ -321,6 +321,7 @@ This repository includes:
 * Dataset file
 * README file
 * Business interpretation report
+* Generated output charts from the notebook
 * Model results, charts, and business interpretation included in the notebook and report
 
 Repository structure:
@@ -331,7 +332,17 @@ Assignment_4/
 ├── FitLife_Decision_Tree_Assignment_Assignment4.ipynb
 ├── fitlife_membership_renewal_risk_dataset.xlsx
 ├── README.md
-└── Report - Decision Tree Model and Business Interpretation Based on a Business Plan.pdf
+├── Report - Decision Tree Model and Business Interpretation Based on a Business Plan.pdf
+└── outputs/
+    ├── actual_vs_predicted_class_counts.png
+    ├── decision_tree_confusion_matrix.png
+    ├── decision_tree_evaluation_metrics.png
+    ├── missing_values_by_column_before_handling.png
+    ├── number_of_unique_values_in_each_categorical_feature.png
+    ├── target_variable_distribution_after_cleaning.png
+    ├── top_10_feature_importances.png
+    ├── training_testing_set_size.png
+    └── training_vs_testing_accuracy.png
    
 ```
 
