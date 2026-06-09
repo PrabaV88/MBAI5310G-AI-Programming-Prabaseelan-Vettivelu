@@ -232,7 +232,7 @@ This repository includes:
 * Completed Jupyter Notebook
 * Dataset file
 * README file
-* Outputs folder with generated charts and results
+* Outputs folder with generated charts from the notebook
 
 Suggested repository structure:
 
@@ -243,12 +243,20 @@ Assignment_3/
 ├── business_account_upgrade_prediction_dataset.xls
 ├── README.md
 └── outputs/
-    ├── missing_values_by_column.png
-    ├── target_class_distribution.png
+    ├── comparison_logistic_regression_vs_svm.png
     ├── logistic_regression_confusion_matrix.png
-    ├── svm_confusion_matrix.png
+    ├── missing_values_by_column.png
     ├── model_comparison_metrics.png
-    └── model_comparison_results.csv
+    ├── model_comparison_results.png
+    ├── number_of_unique_values_in_each_categorical_feature.png
+    ├── numerical_vs_categorical_features.png
+    ├── svm_confusion_matrix.png
+    ├── target_variable_distribution_after_cleaning.png
+    ├── target_variable_distribution_before_cleaning.png
+    ├── training_set_testing_set_size.png
+    └── training_vs_testing_accuracy.png
+```
+
 ```
 
 ---
