@@ -6,29 +6,27 @@
 
 This project develops a **Decision Tree classification model** to predict whether a FitLife Studio member is at risk of not renewing their membership.
 
-FitLife Studio is a fitness subscription business that provides membership plans to its members. Since a significant portion of the company’s revenue comes from recurring membership renewals, member retention is an important business priority.
+FitLife Studio is a fitness subscription business that depends on recurring membership renewals. Member retention is therefore an important business priority. The purpose of this project is not only to build a machine learning model, but also to interpret the model results from a business perspective.
 
-The goal of this project is not only to build a machine learning model, but also to interpret the model results from a business perspective. The model helps FitLife Studio identify members who may need proactive retention support before they fail to renew.
+The model can help FitLife Studio identify members who may require proactive retention support before they fail to renew.
 
 ## Key Results
 
-- Testing Accuracy: 73.17%
-- Precision for Yes: 69.23%
-- Recall for Yes: 56.25%
-- F1-Score for Yes: 62.07%
-- Training Accuracy: 78.05%
-- Testing Accuracy: 73.17%
-- The model does not show strong signs of overfitting.
+- Training Accuracy: **78.05%**
+- Testing Accuracy: **74.39%**
+- Precision for Yes: **72.00%**
+- Recall for Yes: **56.25%**
+- F1-Score for Yes: **63.16%**
+- Accuracy Difference: **3.66 percentage points**
+- The model does **not** show strong signs of overfitting.
 
 ---
-
-
 
 ## 2. Business Problem
 
 The main business problem is **membership churn**.
 
-Some members may become less engaged over time by visiting the studio less often, attending fewer classes, using the app less frequently, reporting lower satisfaction, experiencing payment issues, or not responding to renewal messages. These behaviours may indicate that a member is at risk of not renewing their membership.
+Some members may become less engaged over time by visiting the studio less often, attending fewer classes, using the app less frequently, reporting lower satisfaction, experiencing payment issues, or not responding to renewal reminders. These behaviours may indicate that a member is at risk of not renewing their membership.
 
 The key business question is:
 
@@ -40,10 +38,12 @@ The key business question is:
 
 The objective of the machine learning model is to classify each member into one of two categories:
 
-* **Yes**: The member is at risk of not renewing.
-* **No**: The member is not currently considered high risk.
+| Class | Meaning |
+| ----- | ------- |
+| Yes | The member is at risk of not renewing |
+| No | The member is not currently considered high risk |
 
-This is a **classification problem** because the target variable has two possible class labels.
+This is a **supervised binary classification problem** because the target variable has two possible class labels.
 
 ---
 
@@ -57,10 +57,12 @@ The dataset contains information about FitLife Studio members, including demogra
 
 ### Dataset Size
 
-* Original dataset: **416 rows and 21 columns**
-* Cleaned dataset: **410 rows and 21 columns**
+| Dataset Version | Rows | Columns |
+| --------------- | ---: | ------: |
+| Original dataset | 416 | 21 |
+| Cleaned dataset | 410 | 21 |
 
-Duplicate rows were removed during data cleaning. The number of columns remained the same because duplicate removal affected only repeated records, not the variables included in the dataset.
+Duplicate rows were removed during data cleaning. The number of columns remained the same because duplicate removal affected only repeated member records, not the variables included in the dataset.
 
 ---
 
@@ -72,10 +74,10 @@ The target variable is:
 
 This variable indicates whether a member is at risk of not renewing their membership.
 
-| Class | Meaning                                          |
-| ----- | ------------------------------------------------ |
-| Yes   | The member is at risk of not renewing            |
-| No    | The member is not currently considered high risk |
+| Class | Meaning |
+| ----- | ------- |
+| Yes | The member is at risk of not renewing |
+| No | The member is not currently considered high risk |
 
 ---
 
@@ -83,25 +85,25 @@ This variable indicates whether a member is at risk of not renewing their member
 
 The input features used by the model include:
 
-* Age
-* Gender
-* Membership type
-* Monthly fee
-* Months as member
-* Contract type
-* Average weekly visits
-* Classes per month
-* Personal training
-* App login days in the last 30 days
-* Payment issues in the last 6 months
-* Satisfaction score
-* Complaint count in the last 3 months
-* Distance from studio
-* Last renewal discount used
-* Renewal reminder sent
-* Corporate plan
-* Season
-* Referral source
+- Age
+- Gender
+- Membership type
+- Monthly fee
+- Months as member
+- Contract type
+- Average weekly visits
+- Classes per month
+- Personal training
+- App login days in the last 30 days
+- Payment issues in the last 6 months
+- Satisfaction score
+- Complaint count in the last 3 months
+- Distance from studio
+- Last renewal discount used
+- Renewal reminder sent
+- Corporate plan
+- Season
+- Referral source
 
 The `Member_ID` column was removed before model training because it is only an identifier and does not provide meaningful business information for predicting renewal risk.
 
@@ -114,38 +116,53 @@ The following data preparation steps were completed:
 1. Loaded the dataset into pandas.
 2. Inspected the dataset structure.
 3. Checked the number of rows and columns.
-4. Checked data types.
-5. Checked missing values.
-6. Checked duplicate rows.
-7. Removed duplicate rows.
-8. Handled missing values.
+4. Checked column names and data types.
+5. Checked missing values and duplicate rows.
+6. Removed duplicate rows.
+7. Reviewed missing values after duplicate removal.
+8. Created a missing-value handling strategy.
 9. Separated input features and target variable.
-10. Removed the ID column from model input features.
+10. Removed the ID column from the model input features.
 11. Split the dataset into training and testing sets.
-12. Converted categorical variables into numerical columns using one-hot encoding.
+12. Applied preprocessing using imputation and one-hot encoding.
+13. Trained a Decision Tree classification model.
+14. Evaluated the model using classification metrics, confusion matrix, and feature importance.
 
 ---
 
 ## 8. Missing Value Handling
 
-Missing values were handled using the following methods:
+Missing values were reviewed after duplicate rows were removed.
 
-| Column             | Data Type   | Missing Values Filled | Method | Fill Value      |
-| ------------------ | ----------- | --------------------: | ------ | --------------- |
-| Avg_Weekly_Visits  | Numerical   |                     5 | Median | 2.5             |
-| Classes_Per_Month  | Numerical   |                     8 | Median | 3.0             |
-| Satisfaction_Score | Numerical   |                     9 | Median | 7.6             |
-| Referral_Source    | Categorical |                     7 | Mode   | Friend Referral |
+| Column | Data Type | Missing Values | Planned Method | Handling Location |
+| ------ | --------- | -------------: | -------------- | ----------------- |
+| Avg_Weekly_Visits | Numerical | 5 | Median | Inside preprocessing pipeline |
+| Classes_Per_Month | Numerical | 8 | Median | Inside preprocessing pipeline |
+| Satisfaction_Score | Numerical | 9 | Median | Inside preprocessing pipeline |
+| Referral_Source | Categorical | 7 | Most frequent value | Inside preprocessing pipeline |
 
-Numerical missing values were filled using the **median** because the median is less affected by extreme values.
+Missing values were **not filled directly in the full dataset before the train-test split**. Instead, missing-value handling was completed inside the preprocessing pipeline.
 
-Categorical missing values were filled using the **mode**, which represents the most frequent category.
+Numerical missing values were handled using **median imputation**. Categorical missing values were handled using **most frequent value imputation**. This is a stronger machine learning approach because the preprocessing transformer is fitted on the training data and then applied to the testing data.
 
-The target variable was not filled because it is the value the model is trying to predict.
+The target variable was not filled because it is the outcome the model is trying to predict.
 
 ---
 
-## 9. Model Used
+## 9. Preprocessing
+
+The preprocessing step prepared the training and testing data for the Decision Tree model.
+
+- Numerical features were imputed using the median.
+- Categorical features were imputed using the most frequent value.
+- Categorical variables were converted into numerical columns using one-hot encoding.
+- Numerical variables were not scaled because Decision Tree models do not require feature scaling.
+
+The preprocessing transformer was fitted on the training data and then applied to the testing data. This helps avoid data leakage.
+
+---
+
+## 10. Model Used
 
 The model used in this project is a:
 
@@ -161,58 +178,58 @@ The `max_depth=4` setting was used to keep the tree reasonably simple and interp
 
 ---
 
-## 10. Model Evaluation Results
+## 11. Model Evaluation Results
 
 The Decision Tree model was evaluated using the testing data.
 
-| Metric            |    Score |
-| ----------------- | -------: |
-| Accuracy          | 0.731707 |
-| Precision for Yes | 0.692308 |
-| Recall for Yes    | 0.562500 |
-| F1-Score for Yes  | 0.620690 |
+| Metric | Score |
+| ------ | ----: |
+| Accuracy | 0.743902 |
+| Precision for Yes | 0.720000 |
+| Recall for Yes | 0.562500 |
+| F1-Score for Yes | 0.631579 |
 
 ### Interpretation of Evaluation Metrics
 
-The model achieved a testing accuracy of approximately **73.17%**, meaning it correctly classified about 73% of members in the testing dataset.
+The model achieved a testing accuracy of approximately **74.39%**, meaning it correctly classified about 74% of members in the testing dataset.
 
-Precision for the `Yes` class was approximately **69.23%**, meaning that when the model predicted a member as at risk, it was correct about 69% of the time.
+Precision for the `Yes` class was **72.00%**, meaning that when the model predicted a member as at risk, it was correct 72% of the time.
 
-Recall for the `Yes` class was approximately **56.25%**, meaning that the model identified just over half of the actual at-risk members.
+Recall for the `Yes` class was **56.25%**, meaning that the model identified just over half of the actual at-risk members.
 
-The F1-score for the `Yes` class was approximately **62.07%**, showing moderate performance when balancing precision and recall.
+The F1-score for the `Yes` class was approximately **63.16%**, showing moderate performance when balancing precision and recall.
 
 For this business problem, **recall for the Yes class is especially important** because missing at-risk members may reduce FitLife Studio’s opportunity to take proactive retention action.
 
 ---
 
-## 11. Training vs Testing Accuracy
+## 12. Training vs Testing Accuracy
 
 | Evaluation Set | Accuracy |
 | -------------- | -------: |
-| Training Set   | 0.780488 |
-| Testing Set    | 0.731707 |
+| Training Set | 0.780488 |
+| Testing Set | 0.743902 |
 
-The difference between training accuracy and testing accuracy was approximately **0.048780**.
+The difference between training accuracy and testing accuracy was approximately **0.036585**, or **3.66 percentage points**.
 
 This difference is relatively small. Therefore, the model does not show strong signs of overfitting. The model appears to learn useful patterns from the training data while still performing reasonably well on unseen testing data.
 
 ---
 
-## 12. Confusion Matrix
+## 13. Confusion Matrix
 
 |            | Predicted No | Predicted Yes |
 | ---------- | -----------: | ------------: |
-| Actual No  |           42 |             8 |
-| Actual Yes |           14 |            18 |
+| Actual No  | 43 | 7 |
+| Actual Yes | 14 | 18 |
 
 ### Confusion Matrix Interpretation
 
-The model correctly predicted **42 members** as not at risk. These are true negatives.
+The model correctly predicted **43 members** as not at risk. These are true negatives.
 
 The model correctly predicted **18 members** as at risk. These are true positives.
 
-The model incorrectly predicted **8 members** as at risk when they were not actually at risk. These are false positives.
+The model incorrectly predicted **7 members** as at risk when they were not actually at risk. These are false positives.
 
 The model incorrectly predicted **14 members** as not at risk when they were actually at risk. These are false negatives.
 
@@ -220,28 +237,28 @@ In the FitLife Studio business context, false negatives are especially important
 
 ---
 
-## 13. Feature Importance
+## 14. Feature Importance
 
 The Decision Tree model identified the following top 10 important features:
 
-1. Average weekly visits
-2. Classes per month
-3. Monthly contract type
-4. Satisfaction score
-5. Renewal reminder sent
-6. Basic membership type
-7. App login days in the last 30 days
-8. Payment issues in the last 6 months
-9. Premium membership type
-10. Age
+1. `Avg_Weekly_Visits`
+2. `Classes_Per_Month`
+3. `Contract_Type_Monthly`
+4. `Satisfaction_Score`
+5. `Renewal_Reminder_Sent_Yes`
+6. `Membership_Type_Basic`
+7. `Payment_Issues_Last_6_Months`
+8. `Membership_Type_Premium`
+9. `App_Login_Days_Last_30`
+10. `Age`
 
-These features suggest that renewal risk is strongly connected to member engagement, membership structure, satisfaction, communication, and payment experience.
+These features suggest that renewal risk is strongly connected to member engagement, membership structure, satisfaction, communication, payment experience, app activity, and age.
 
-Some features, such as monthly contract type and membership type categories, were created through one-hot encoding. This means the original categorical variables were converted into separate binary features before training the model.
+Some features, such as contract type and membership type categories, were created through one-hot encoding. This means the original categorical variables were converted into separate binary features before training the model.
 
 ---
 
-## 14. Key Business Insights
+## 15. Key Business Insights
 
 The model results provide several useful business insights for FitLife Studio.
 
@@ -253,9 +270,9 @@ FitLife Studio can monitor engagement patterns and contact members whose partici
 
 ### Membership Structure
 
-Contract type and membership type were also important. Monthly members may have more flexibility to stop renewing compared with members on longer-term contracts.
+Monthly contract type and membership type were important predictors. Monthly members may have more flexibility to stop renewing compared with members on longer-term contracts.
 
-FitLife Studio can design different retention strategies for monthly, six-month, annual, basic, standard, and premium members.
+FitLife Studio can design different retention strategies for monthly, basic, standard, premium, student, six-month, and annual members.
 
 ### Satisfaction
 
@@ -277,11 +294,11 @@ FitLife Studio can provide billing support before the renewal period to reduce f
 
 ---
 
-## 15. Business Interpretation
+## 16. Business Interpretation
 
-The Decision Tree model performed reasonably well for a first business classification model. A testing accuracy of approximately **73.17%** suggests that the model can correctly classify a meaningful portion of members.
+The Decision Tree model performed reasonably well for a first business classification model. A testing accuracy of approximately **74.39%** suggests that the model can correctly classify a meaningful portion of members.
 
-However, the model does not identify all at-risk members. The recall score of approximately **56.25%** means that some at-risk members are missed.
+However, the model does not identify all at-risk members. The recall score of **56.25%** means that some at-risk members are missed.
 
 Since FitLife Studio’s goal is to reduce membership churn, the model should be used as a **screening tool** rather than a final decision-making system.
 
@@ -291,7 +308,7 @@ A false negative is more costly than a false positive because a missed at-risk m
 
 ---
 
-## 16. Limitation and Possible Bias
+## 17. Limitation and Possible Bias
 
 One limitation of the model is that it is based only on the available dataset. The dataset may not include all reasons why a member chooses not to renew. For example, a member may leave because of relocation, personal schedule changes, family reasons, health concerns, competitor offers, or financial constraints.
 
@@ -301,7 +318,7 @@ A possible bias may also exist if certain groups of members are underrepresented
 
 ---
 
-## 17. Why Human Judgment Is Still Needed
+## 18. Why Human Judgment Is Still Needed
 
 Human judgment should still be used when making business decisions based on the model results.
 
@@ -313,16 +330,16 @@ The model should support better decisions, not replace human decision-making.
 
 ---
 
-## 18. Repository Contents
+## 19. Repository Contents
 
 This repository includes:
 
-* Completed Jupyter Notebook
-* Dataset file
-* README file
-* Business interpretation report
-* Generated output charts from the notebook
-* Model results, charts, and business interpretation included in the notebook and report
+- Completed Jupyter Notebook
+- Dataset file
+- README file
+- Business interpretation report
+- Generated output charts from the notebook
+- Model results, charts, and business interpretation included in the notebook and report
 
 Repository structure:
 
@@ -335,20 +352,25 @@ Assignment_4/
 ├── FitLife_Assignment4_Final_Report.pdf
 └── outputs/
     ├── actual_vs_predicted_class_counts.png
+    ├── categorical_unique_values.png
     ├── decision_tree_confusion_matrix.png
     ├── decision_tree_evaluation_metrics.png
-    ├── missing_values_by_column_before_handling.png
-    ├── number_of_unique_values_in_each_categorical_feature.png
-    ├── target_variable_distribution_after_cleaning.png
-    ├── top_10_feature_importances.png
-    ├── training_testing_set_size.png
-    └── training_vs_testing_accuracy.png
-   
+    ├── decision_tree_evaluation_results.csv
+    ├── decision_tree_feature_importance.csv
+    ├── decision_tree_visualization.png
+    ├── missing_value_handling_plan.csv
+    ├── missing_values_by_column.png
+    ├── model_results_summary.csv
+    ├── overfitting_summary.csv
+    ├── target_class_distribution.png
+    ├── target_distribution_after_cleaning.png
+    ├── top_10_feature_importance.png
+    └── training_testing_accuracy_comparison.png
 ```
 
 ---
 
-## 19. How to Run the Notebook
+## 20. How to Run the Notebook
 
 1. Download or clone this repository.
 2. Open the Jupyter Notebook.
@@ -358,15 +380,14 @@ Assignment_4/
 
 ---
 
-## 20. Final Conclusion
+## 21. Final Conclusion
 
 This project shows how a Decision Tree classification model can support FitLife Studio’s membership renewal-risk prediction.
 
-The model achieved approximately **73.17% testing accuracy**, with **69.23% precision**, **56.25% recall**, and **62.07% F1-score** for the at-risk class.
+The model achieved approximately **74.39% testing accuracy**, with **72.00% precision**, **56.25% recall**, and **63.16% F1-score** for the at-risk class.
 
 The model does not show strong signs of overfitting because the difference between training and testing accuracy is relatively small.
 
-The most important features included average weekly visits, classes per month, contract type, satisfaction score, renewal reminders, membership type, app login activity, payment issues, and age.
+The most important features included average weekly visits, classes per month, monthly contract type, satisfaction score, renewal reminders, basic membership type, payment issues, premium membership type, app login activity, and age.
 
 From a business perspective, the model can help FitLife Studio identify members who may require proactive retention support. However, because the model misses some actual at-risk members, it should be used together with human judgment and business knowledge.
-
