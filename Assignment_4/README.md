@@ -339,10 +339,10 @@ Assignment_4/
     ├── decision_tree_evaluation_metrics.png
     ├── missing_values_by_column_before_handling.png
     ├── number_of_unique_values_in_each_categorical_feature.png
-    ├── target_variable_distribution_after_cleaning.png
-    ├── top_10_feature_importances.png
+    ├── target_distribution_after_cleaning.png
+    ├── top_10_feature_importance.png
     ├── training_testing_set_size.png
-    └── training_vs_testing_accuracy.png
+    └── training_testing_accuracy_comparison.png
    
 ```
 
