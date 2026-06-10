@@ -1,0 +1,3 @@
+Column,Data Type,Missing Values,Handling Method
+Manager_Support_Level,Categorical,6,Most frequent value
+Satisfaction_Score_Week1,Numerical,9,Median

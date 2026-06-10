@@ -1,0 +1,8 @@
+,count,mean,std,min,25%,50%,75%,max
+Course_Length_Weeks,380.0,8.09,2.79,4.0,6.0,8.0,10.0,12.0
+Fee_Paid,380.0,1752.88,550.59,539.0,1359.0,1704.0,2129.25,3224.0
+Days_Between_Enrollment_and_Start,380.0,12.97,7.78,0.0,7.0,13.0,18.0,42.0
+Sessions_Attended_First_Week,380.0,1.86,1.05,0.0,1.0,2.0,3.0,4.0
+LMS_Logins_First_Week,380.0,5.38,2.85,0.0,3.0,5.0,7.0,14.0
+Reminder_Emails_Opened,380.0,2.41,1.67,0.0,1.0,2.0,4.0,7.0
+Satisfaction_Score_Week1,380.0,3.61,1.04,1.0,3.0,3.7,4.4,5.0

@@ -1,0 +1,5 @@
+Cluster,Segment_Name,Number_of_Participants,Course_Length_Weeks,Fee_Paid,Days_Between_Enrollment_and_Start,Sessions_Attended_First_Week,LMS_Logins_First_Week,Reminder_Emails_Opened,Satisfaction_Score_Week1,Percent_of_Total,Observed_Dropout_Risk_Yes_Count,Observed_Dropout_Risk_Yes_Percent
+0,Active Short-Course Learners,82,5.88,1425.12,13.43,2.9,7.76,3.68,4.37,21.6,0,0.0
+1,At-Risk Long-Course Low-Engagement Participants,94,9.68,2055.03,10.9,1.02,2.49,1.13,2.59,24.7,31,33.0
+2,Premium Engaged Long-Course Participants,115,10.19,2085.31,12.81,2.28,6.38,3.13,4.2,30.3,3,2.6
+3,Moderate-Engagement Short-Course Participants,89,5.75,1306.19,14.96,1.26,4.97,1.64,3.25,23.4,11,12.4
