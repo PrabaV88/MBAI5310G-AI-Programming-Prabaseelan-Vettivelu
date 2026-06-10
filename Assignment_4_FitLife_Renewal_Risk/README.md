@@ -102,7 +102,6 @@ The dataset is synthetic and relatively small. It may not fully represent all re
 Repository structure:
 
 ```text
-## Repository Structure
 
 ```text
 Assignment_4_FitLife_Renewal_Risk/
