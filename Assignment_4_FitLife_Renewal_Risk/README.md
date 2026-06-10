@@ -104,7 +104,7 @@ Repository structure:
 ```text
 Assignment_4_FitLife_Renewal_Risk/
 │
-├── FitLife_Decision_Tree_Assignment_Assignment4.ipynb
+├── FitLife_Decision_Tree_Assignment4.ipynb
 ├── fitlife_membership_renewal_risk_dataset.xlsx
 ├── business_plan_fitlife_membership_renewal.pdf
 ├── FitLife_Assignment4_Final_Report.pdf
