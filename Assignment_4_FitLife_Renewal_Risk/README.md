@@ -103,7 +103,6 @@ Repository structure:
 
 ```text
 
-```text
 Assignment_4_FitLife_Renewal_Risk/
 │
 ├── FitLife_Decision_Tree_Assignment_Assignment4.ipynb
