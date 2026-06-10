@@ -145,7 +145,6 @@ Assignment_5_EventEdge_Clustering_Segmentation/
 ├── eventedge_training_dropout_business_plan.docx
 ├── README.md
 └── outputs/
-    ├── assignment_alignment_checklist.csv
     ├── business_recommendations_by_segment.csv
     ├── categorical_unique_values.png
     ├── cluster_dropout_distribution.csv
@@ -165,7 +164,6 @@ Assignment_5_EventEdge_Clustering_Segmentation/
     ├── missing_values_by_column.png
     ├── pca_cluster_visualization.png
     ├── selected_feature_summary.csv
-    └── week5_lecture_alignment_checklist.csv
 ```
 
 ## How to Run the Notebook
