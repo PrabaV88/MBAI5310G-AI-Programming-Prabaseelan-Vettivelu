@@ -38,22 +38,22 @@ The notebook uses a preprocessing pipeline with:
 
 ## Main Evaluation Results
 
-| Metric            |  Score | Percentage |
-| ----------------- | -----: | ---------: |
-| Accuracy          | 0.7262 |     72.62% |
-| Precision for Yes | 0.5000 |     50.00% |
-| Recall for Yes    | 0.6087 |     60.87% |
-| F1-score for Yes  | 0.5490 |     54.90% |
-| Training Accuracy | 0.7560 |     75.60% |
-| Testing Accuracy  | 0.7262 |     72.62% |
-| Accuracy Gap      | 0.0298 |      2.98% |
+| Metric            | Score  | Percentage |
+| ----------------- | ------ | ---------- |
+| Accuracy          | 0.7262 | 72.62%     |
+| Precision for Yes | 0.5000 | 50.00%     |
+| Recall for Yes    | 0.6087 | 60.87%     |
+| F1-score for Yes  | 0.5490 | 54.90%     |
+| Training Accuracy | 0.7560 | 75.60%     |
+| Testing Accuracy  | 0.7262 | 72.62%     |
+| Accuracy Gap      | 0.0298 | 2.98%      |
 
 ## Confusion Matrix
 
 | Actual / Predicted | Predicted No | Predicted Yes |
-| ------------------ | -----------: | ------------: |
-| Actual No          |           47 |            14 |
-| Actual Yes         |            9 |            14 |
+| ------------------ | ------------ | ------------- |
+| Actual No          | 47           | 14            |
+| Actual Yes         | 9            | 14            |
 
 ## Key Business Insights
 
