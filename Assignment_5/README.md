@@ -145,20 +145,27 @@ Assignment_5_EventEdge_Clustering_Segmentation/
 ├── eventedge_training_dropout_business_plan.docx
 ├── README.md
 └── outputs/
+    ├── assignment_alignment_checklist.csv
+    ├── business_recommendations_by_segment.csv
+    ├── categorical_unique_values.png
+    ├── cluster_dropout_distribution.csv
+    ├── cluster_engagement_averages.png
+    ├── cluster_scatter_lms_satisfaction.png
+    ├── cluster_sizes.png
+    ├── cluster_summary.csv
     ├── data_quality_review.csv
     ├── duplicate_cleaning_summary.csv
-    ├── missing_value_summary.csv
-    ├── missing_value_handling_plan.csv
-    ├── high_dropout_risk_distribution.png
-    ├── missing_values_by_column.png
     ├── elbow_method.png
     ├── elbow_method_values.csv
     ├── eventedge_clustered_results.csv
-    ├── cluster_summary.csv
-    ├── cluster_profile_summary.csv
-    ├── cluster_engagement_averages.png
-    ├── cluster_size_distribution.png
-    └── pca_cluster_visualization.png
+    ├── feature_type_summary.csv
+    ├── high_dropout_risk_distribution.png
+    ├── missing_value_handling_plan.csv
+    ├── missing_value_summary.csv
+    ├── missing_values_by_column.png
+    ├── pca_cluster_visualization.png
+    ├── selected_feature_summary.csv
+    └── week5_lecture_alignment_checklist.csv
 ```
 
 ## How to Run the Notebook
