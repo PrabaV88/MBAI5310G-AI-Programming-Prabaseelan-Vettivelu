@@ -1,0 +1,11 @@
+Feature Condition,Contribution to Not Completed Prediction
+missed_appointments_last_year <= 0.00,-0.2155320215900809
+3.00 < previous_advising_visits <= 7.00,0.11825393242418035
+current_gpa <= 2.17,0.09707223977153905
+advisor_rating_previous <= 2.00,0.06344820171596935
+student_level_First Year > 0.00,-0.03518385071719374
+student_level_Fourth Year <= 0.00,0.019259563260731853
+credits_completed > 92.00,0.01794760494321951
+appointment_type_Graduation Check <= 0.00,-0.015527748967023733
+appointment_mode_Phone <= 0.00,0.013900789517422948
+email_reminder_sent_No > 0.00,-0.012216872525001171

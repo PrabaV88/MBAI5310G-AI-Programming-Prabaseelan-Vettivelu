@@ -1,0 +1,18 @@
+Column,Data Type
+appointment_id,str
+student_age,int64
+age_group,str
+gender,str
+region,str
+student_level,str
+program_area,str
+appointment_type,str
+booking_lead_days,int64
+previous_advising_visits,int64
+missed_appointments_last_year,int64
+credits_completed,int64
+current_gpa,float64
+email_reminder_sent,str
+appointment_mode,str
+advisor_rating_previous,int64
+appointment_completed,int64

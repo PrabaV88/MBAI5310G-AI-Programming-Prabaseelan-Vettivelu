@@ -1,0 +1,5 @@
+Item,Value,Business Meaning
+True Negative,30,Completed appointments correctly predicted as completed.
+False Positive,17,Completed appointments incorrectly predicted as not completed; may cause unnecessary reminders or support.
+False Negative,5,Not completed appointments incorrectly predicted as completed; may cause missed intervention opportunities.
+True Positive,20,Not completed appointments correctly identified for possible support.

@@ -1,0 +1,5 @@
+Error Type,Count
+True Negative,30
+True Positive,20
+False Positive,17
+False Negative,5

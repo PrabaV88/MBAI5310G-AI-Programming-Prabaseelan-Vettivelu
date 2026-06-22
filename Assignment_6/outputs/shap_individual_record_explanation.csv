@@ -1,0 +1,26 @@
+Feature,Feature Value,SHAP Value for Not Completed,Absolute SHAP Value
+previous_advising_visits,6.0,0.18134335371764726,0.18134335371764726
+current_gpa,1.7,0.0601260424867631,0.0601260424867631
+missed_appointments_last_year,0.0,-0.05842430788722372,0.05842430788722372
+advisor_rating_previous,2.0,-0.014872789936554952,0.014872789936554952
+student_level_First Year,1.0,-0.010434203142536472,0.010434203142536472
+booking_lead_days,32.0,0.0,0.0
+program_area_Science,0.0,0.0,0.0
+appointment_mode_Online,1.0,0.0,0.0
+appointment_mode_In Person,0.0,0.0,0.0
+email_reminder_sent_Yes,0.0,0.0,0.0
+email_reminder_sent_No,1.0,0.0,0.0
+appointment_type_Graduation Check,0.0,0.0,0.0
+appointment_type_Course Planning,1.0,0.0,0.0
+appointment_type_Career,0.0,0.0,0.0
+appointment_type_Academic Risk,0.0,0.0,0.0
+program_area_Business,0.0,0.0,0.0
+program_area_Health,0.0,0.0,0.0
+program_area_Engineering,1.0,0.0,0.0
+program_area_Arts,0.0,0.0,0.0
+student_level_Third Year,0.0,0.0,0.0
+student_level_Second Year,0.0,0.0,0.0
+student_level_Graduate,0.0,0.0,0.0
+student_level_Fourth Year,0.0,0.0,0.0
+credits_completed,117.0,0.0,0.0
+appointment_mode_Phone,0.0,0.0,0.0

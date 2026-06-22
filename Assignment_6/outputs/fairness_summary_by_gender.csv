@@ -1,0 +1,3 @@
+gender,Number_of_Records,Actual_Positive_Rate,Predicted_Positive_Rate,Accuracy_By_Group,Actual_Positive_Rate_Percentage,Predicted_Positive_Rate_Percentage,Accuracy_By_Group_Percentage
+Female,29,0.27586206896551724,0.4482758620689655,0.5517241379310345,27.59,44.83,55.17
+Male,43,0.3953488372093023,0.5581395348837209,0.7906976744186046,39.53,55.81,79.07

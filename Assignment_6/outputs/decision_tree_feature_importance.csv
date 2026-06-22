@@ -1,0 +1,26 @@
+Feature,Importance,Importance Percentage
+missed_appointments_last_year,0.445181,44.52
+previous_advising_visits,0.243925,24.39
+current_gpa,0.189158,18.92
+advisor_rating_previous,0.096745,9.67
+student_level_First Year,0.024991,2.5
+booking_lead_days,0.0,0.0
+program_area_Science,0.0,0.0
+appointment_mode_Online,0.0,0.0
+appointment_mode_In Person,0.0,0.0
+email_reminder_sent_Yes,0.0,0.0
+email_reminder_sent_No,0.0,0.0
+appointment_type_Graduation Check,0.0,0.0
+appointment_type_Course Planning,0.0,0.0
+appointment_type_Career,0.0,0.0
+appointment_type_Academic Risk,0.0,0.0
+program_area_Business,0.0,0.0
+program_area_Health,0.0,0.0
+program_area_Engineering,0.0,0.0
+program_area_Arts,0.0,0.0
+student_level_Third Year,0.0,0.0
+student_level_Second Year,0.0,0.0
+student_level_Graduate,0.0,0.0
+student_level_Fourth Year,0.0,0.0
+credits_completed,0.0,0.0
+appointment_mode_Phone,0.0,0.0

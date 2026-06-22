@@ -1,0 +1,44 @@
+
+Final Business Interpretation
+-----------------------------
+
+1. What the model predicts:
+The model predicts whether a university advising appointment is at risk of not being completed.
+The positive class is Not Completed, which means the appointment may need extra reminder or support.
+
+2. Overall model performance:
+The Decision Tree achieved a testing accuracy of 69.44%.
+Precision for the Not Completed class was 54.05%.
+Recall for the Not Completed class was 80.00%.
+F1-score for the Not Completed class was 64.52%.
+
+3. Most important evaluation metric:
+The most important metric is Recall for Not Completed, because the advising office wants to identify appointments that may be missed before they happen.
+A false negative means the model predicts the appointment will be completed, but it is actually not completed.
+This can cause the advising office to miss an opportunity to intervene.
+
+4. Main error type:
+The most common wrong prediction type was False Positive.
+False positives may create unnecessary staff follow-up, while false negatives may lead to missed intervention opportunities.
+For this business problem, false negatives are more serious even if they are not the most frequent error.
+
+5. Overfitting or underfitting evidence:
+The training accuracy was 74.31% and the testing accuracy was 69.44%.
+The accuracy gap was 4.86 percentage points.
+This suggests that the controlled Decision Tree does not show strong overfitting, although performance should still be improved before real deployment.
+
+6. Most important features:
+The most important model features included missed_appointments_last_year, previous_advising_visits, and current_gpa.
+These features helped the Decision Tree split the data, but they do not prove cause and effect.
+
+7. SHAP or LIME insight:
+SHAP and LIME help explain why the model made a prediction for an individual appointment.
+They show which features pushed the prediction toward Not Completed and which features worked against that prediction.
+This makes the model easier for business users to understand than accuracy alone.
+
+8. Fairness and bias concern:
+Possible fairness concerns should be reviewed for: age_group, gender, region.
+The fairness columns were not used as model inputs, but the model should still be checked because other features may indirectly reflect group differences.
+
+9. Final recommendation:
+The model should be treated as an early prototype, not a fully production-ready decision system. It can support advising staff by flagging appointments for review, but it should not automatically decide which students receive support.

@@ -1,0 +1,3 @@
+Feature Type,Number of Features,Columns
+Numerical,6,"booking_lead_days, previous_advising_visits, missed_appointments_last_year, credits_completed, current_gpa, advisor_rating_previous"
+Categorical,5,"student_level, program_area, appointment_type, email_reminder_sent, appointment_mode"

@@ -1,0 +1,5 @@
+Metric,Score,Percentage
+Accuracy,0.6944,69.44
+Precision for Not Completed,0.5405,54.05
+Recall for Not Completed,0.8,80.0
+F1-score for Not Completed,0.6452,64.52

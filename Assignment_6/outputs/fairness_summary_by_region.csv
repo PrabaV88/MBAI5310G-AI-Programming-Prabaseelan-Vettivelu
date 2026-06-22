@@ -1,0 +1,5 @@
+region,Number_of_Records,Actual_Positive_Rate,Predicted_Positive_Rate,Accuracy_By_Group,Actual_Positive_Rate_Percentage,Predicted_Positive_Rate_Percentage,Accuracy_By_Group_Percentage
+East,15,0.4,0.6666666666666666,0.6,40.0,66.67,60.0
+North,20,0.4,0.45,0.85,40.0,45.0,85.0
+South,16,0.25,0.375,0.75,25.0,37.5,75.0
+West,21,0.3333333333333333,0.5714285714285714,0.5714285714285714,33.33,57.14,57.14

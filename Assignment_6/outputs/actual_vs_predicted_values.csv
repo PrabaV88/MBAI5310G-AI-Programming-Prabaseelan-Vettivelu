@@ -1,0 +1,73 @@
+appointment_id,Actual Value,Predicted Value,Actual Meaning,Predicted Meaning,Predicted Probability - Not Completed,Correct Prediction
+UA0077,0,0,Completed,Completed,0.0777,Correct
+UA0045,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0137,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0263,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0308,0,0,Completed,Completed,0.0777,Correct
+UA0283,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0116,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0109,0,0,Completed,Completed,0.0777,Correct
+UA0056,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0233,1,0,Not Completed,Completed,0.0777,Incorrect
+UA0252,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0360,0,0,Completed,Completed,0.3846,Correct
+UA0027,0,0,Completed,Completed,0.3846,Correct
+UA0351,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0057,0,0,Completed,Completed,0.3846,Correct
+UA0220,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0019,0,1,Completed,Not Completed,0.6667,Incorrect
+UA0114,0,0,Completed,Completed,0.0777,Correct
+UA0170,0,1,Completed,Not Completed,0.8846,Incorrect
+UA0204,0,0,Completed,Completed,0.0777,Correct
+UA0197,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0164,0,0,Completed,Completed,0.0777,Correct
+UA0318,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0037,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0140,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0006,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0081,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0002,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0065,1,0,Not Completed,Completed,0.3846,Incorrect
+UA0307,0,0,Completed,Completed,0.0777,Correct
+UA0302,0,1,Completed,Not Completed,0.6667,Incorrect
+UA0353,0,0,Completed,Completed,0.3846,Correct
+UA0275,0,0,Completed,Completed,0.0777,Correct
+UA0148,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0242,0,1,Completed,Not Completed,0.8846,Incorrect
+UA0285,0,1,Completed,Not Completed,0.6667,Incorrect
+UA0074,0,0,Completed,Completed,0.0777,Correct
+UA0306,0,0,Completed,Completed,0.0777,Correct
+UA0139,0,0,Completed,Completed,0.3846,Correct
+UA0357,0,0,Completed,Completed,0.3846,Correct
+UA0254,0,0,Completed,Completed,0.375,Correct
+UA0239,0,0,Completed,Completed,0.1304,Correct
+UA0269,1,0,Not Completed,Completed,0.375,Incorrect
+UA0303,0,0,Completed,Completed,0.3846,Correct
+UA0333,0,0,Completed,Completed,0.0777,Correct
+UA0163,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0120,1,1,Not Completed,Not Completed,0.8846,Correct
+UA0258,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0079,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0339,0,0,Completed,Completed,0.0777,Correct
+UA0093,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0113,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0205,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0345,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0281,1,0,Not Completed,Completed,0.0777,Incorrect
+UA0188,0,0,Completed,Completed,0.0777,Correct
+UA0304,0,0,Completed,Completed,0.0777,Correct
+UA0100,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0183,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0322,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0087,0,0,Completed,Completed,0.1304,Correct
+UA0268,0,0,Completed,Completed,0.1304,Correct
+UA0152,1,1,Not Completed,Not Completed,0.5119,Correct
+UA0249,0,0,Completed,Completed,0.1304,Correct
+UA0086,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0171,0,1,Completed,Not Completed,0.5119,Incorrect
+UA0071,1,0,Not Completed,Completed,0.0777,Incorrect
+UA0095,0,0,Completed,Completed,0.0777,Correct
+UA0159,0,0,Completed,Completed,0.0777,Correct
+UA0028,0,0,Completed,Completed,0.0777,Correct
+UA0143,0,0,Completed,Completed,0.1304,Correct
+UA0031,1,1,Not Completed,Not Completed,0.5119,Correct

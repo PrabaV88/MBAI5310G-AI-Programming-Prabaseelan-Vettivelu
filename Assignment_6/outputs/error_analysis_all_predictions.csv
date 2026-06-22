@@ -1,0 +1,73 @@
+appointment_id,Actual Value,Predicted Value,Actual Meaning,Predicted Meaning,Predicted Probability - Not Completed,Correct Prediction,Error Type,age_group,gender,region,student_level,program_area,appointment_type,missed_appointments_last_year,previous_advising_visits,current_gpa,email_reminder_sent,appointment_mode
+UA0077,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Female,North,Graduate,Engineering,Course Planning,0,8,2.85,No,In Person
+UA0045,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Male,North,First Year,Engineering,Course Planning,0,6,1.7,No,Online
+UA0137,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,26-35,Male,North,Fourth Year,Business,Course Planning,0,0,1.62,No,Phone
+UA0263,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,26-35,Male,North,Graduate,Business,Course Planning,0,1,2.67,Yes,Online
+UA0308,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Female,West,First Year,Science,Academic Risk,0,11,3.73,Yes,Phone
+UA0283,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,36-50,Male,East,Third Year,Health,Academic Risk,2,8,3.41,Yes,Online
+UA0116,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,18-25,Male,North,Second Year,Business,Course Planning,3,6,3.36,Yes,Phone
+UA0109,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Male,North,Second Year,Business,Academic Risk,0,12,2.12,No,Phone
+UA0056,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,36-50,Male,East,Second Year,Science,Course Planning,2,7,3.15,Yes,In Person
+UA0233,1,0,Not Completed,Completed,0.0777,Incorrect,False Negative,26-35,Female,South,Graduate,Arts,Academic Risk,0,7,2.7,Yes,In Person
+UA0252,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,26-35,Female,West,Third Year,Science,Academic Risk,0,2,1.77,Yes,In Person
+UA0360,0,0,Completed,Completed,0.3846,Correct,True Negative,36-50,Male,South,First Year,Science,Academic Risk,1,11,1.55,Yes,Online
+UA0027,0,0,Completed,Completed,0.3846,Correct,True Negative,18-25,Female,West,Third Year,Science,Graduation Check,0,12,3.43,Yes,Phone
+UA0351,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,36-50,Male,South,Graduate,Health,Career,4,4,2.66,Yes,Online
+UA0057,0,0,Completed,Completed,0.3846,Correct,True Negative,18-25,Male,East,Fourth Year,Business,Graduation Check,0,11,3.02,Yes,Online
+UA0220,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,36-50,Male,East,Third Year,Business,Academic Risk,2,7,2.99,Yes,Online
+UA0019,0,1,Completed,Not Completed,0.6667,Incorrect,False Positive,18-25,Female,East,First Year,Arts,Career,2,8,3.2,Yes,Online
+UA0114,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Female,West,Second Year,Business,Course Planning,0,7,3.74,No,In Person
+UA0170,0,1,Completed,Not Completed,0.8846,Incorrect,False Positive,36-50,Male,West,Third Year,Arts,Course Planning,2,4,2.67,Yes,Online
+UA0204,0,0,Completed,Completed,0.0777,Correct,True Negative,18-25,Male,South,Fourth Year,Science,Academic Risk,0,7,2.27,Yes,Online
+UA0197,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,18-25,Female,South,Graduate,Engineering,Career,2,6,2.81,No,In Person
+UA0164,0,0,Completed,Completed,0.0777,Correct,True Negative,26-35,Male,East,Fourth Year,Arts,Course Planning,0,9,2.72,No,Phone
+UA0318,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Male,East,Third Year,Health,Career,0,1,2.96,No,Online
+UA0037,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,36-50,Female,West,Third Year,Engineering,Career,0,0,2.7,Yes,Phone
+UA0140,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Male,North,Graduate,Business,Academic Risk,0,0,2.2,Yes,In Person
+UA0006,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Female,South,Third Year,Business,Academic Risk,0,2,1.52,Yes,Online
+UA0081,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,18-25,Male,West,Second Year,Engineering,Career,0,6,2.07,Yes,In Person
+UA0002,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,26-35,Female,East,First Year,Science,Career,0,6,2.94,Yes,In Person
+UA0065,1,0,Not Completed,Completed,0.3846,Incorrect,False Negative,26-35,Male,West,Second Year,Engineering,Academic Risk,0,9,2.08,Yes,Online
+UA0307,0,0,Completed,Completed,0.0777,Correct,True Negative,26-35,Female,North,First Year,Health,Graduation Check,1,12,1.8,Yes,In Person
+UA0302,0,1,Completed,Not Completed,0.6667,Incorrect,False Positive,26-35,Female,South,First Year,Business,Graduation Check,2,9,3.48,Yes,In Person
+UA0353,0,0,Completed,Completed,0.3846,Correct,True Negative,18-25,Female,West,Third Year,Science,Career,0,12,3.4,No,Phone
+UA0275,0,0,Completed,Completed,0.0777,Correct,True Negative,26-35,Male,West,Graduate,Engineering,Career,1,11,1.85,No,Phone
+UA0148,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Male,West,First Year,Arts,Career,1,5,1.92,Yes,Online
+UA0242,0,1,Completed,Not Completed,0.8846,Incorrect,False Positive,36-50,Male,West,Second Year,Engineering,Career,2,5,2.81,Yes,In Person
+UA0285,0,1,Completed,Not Completed,0.6667,Incorrect,False Positive,26-35,Female,East,First Year,Engineering,Graduation Check,2,12,2.04,Yes,Online
+UA0074,0,0,Completed,Completed,0.0777,Correct,True Negative,26-35,Female,North,Graduate,Business,Course Planning,0,7,3.9,Yes,Phone
+UA0306,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Male,West,Second Year,Engineering,Graduation Check,1,9,2.83,No,Online
+UA0139,0,0,Completed,Completed,0.3846,Correct,True Negative,26-35,Female,South,Graduate,Arts,Course Planning,0,7,3.54,Yes,Online
+UA0357,0,0,Completed,Completed,0.3846,Correct,True Negative,26-35,Male,South,Third Year,Health,Graduation Check,1,9,3.52,Yes,In Person
+UA0254,0,0,Completed,Completed,0.375,Correct,True Negative,26-35,Male,East,Second Year,Science,Academic Risk,3,8,3.64,Yes,Phone
+UA0239,0,0,Completed,Completed,0.1304,Correct,True Negative,18-25,Male,South,Second Year,Engineering,Academic Risk,0,3,3.99,Yes,Online
+UA0269,1,0,Not Completed,Completed,0.375,Incorrect,False Negative,36-50,Female,West,First Year,Science,Graduation Check,4,10,3.92,No,Phone
+UA0303,0,0,Completed,Completed,0.3846,Correct,True Negative,36-50,Male,North,Second Year,Arts,Course Planning,0,12,2.63,Yes,Phone
+UA0333,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Male,South,Third Year,Arts,Course Planning,0,11,3.16,No,Online
+UA0163,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Female,West,Graduate,Health,Graduation Check,0,1,2.54,Yes,In Person
+UA0120,1,1,Not Completed,Not Completed,0.8846,Correct,True Positive,36-50,Male,West,Third Year,Engineering,Course Planning,3,1,2.77,Yes,Phone
+UA0258,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,36-50,Male,West,First Year,Arts,Career,1,6,2.59,Yes,Online
+UA0079,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,26-35,Female,West,Graduate,Science,Course Planning,0,0,1.77,Yes,In Person
+UA0339,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Female,East,Second Year,Health,Course Planning,1,10,2.69,Yes,In Person
+UA0093,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Male,East,Second Year,Engineering,Career,0,4,1.62,No,Online
+UA0113,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Male,East,First Year,Engineering,Graduation Check,0,6,2.58,Yes,Phone
+UA0205,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Female,West,Fourth Year,Health,Academic Risk,0,1,2.65,Yes,Online
+UA0345,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,26-35,Male,South,Second Year,Science,Graduation Check,1,6,1.9,Yes,In Person
+UA0281,1,0,Not Completed,Completed,0.0777,Incorrect,False Negative,36-50,Female,East,First Year,Engineering,Course Planning,1,7,3.77,Yes,In Person
+UA0188,0,0,Completed,Completed,0.0777,Correct,True Negative,18-25,Male,North,First Year,Science,Graduation Check,0,7,2.52,No,Phone
+UA0304,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Male,North,Third Year,Business,Course Planning,0,12,2.78,Yes,In Person
+UA0100,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,36-50,Male,North,Second Year,Business,Academic Risk,0,0,2.6,Yes,Phone
+UA0183,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,18-25,Male,North,Third Year,Health,Graduation Check,0,6,2.16,Yes,Online
+UA0322,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,26-35,Male,East,First Year,Business,Academic Risk,1,3,3.29,Yes,In Person
+UA0087,0,0,Completed,Completed,0.1304,Correct,True Negative,36-50,Male,South,Graduate,Science,Graduation Check,0,4,3.9,Yes,Phone
+UA0268,0,0,Completed,Completed,0.1304,Correct,True Negative,18-25,Male,South,First Year,Business,Course Planning,0,5,3.88,Yes,Online
+UA0152,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,18-25,Male,North,First Year,Business,Career,0,1,2.92,Yes,Online
+UA0249,0,0,Completed,Completed,0.1304,Correct,True Negative,18-25,Female,West,Fourth Year,Arts,Career,0,5,3.59,No,Online
+UA0086,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Female,South,Third Year,Health,Course Planning,0,6,2.81,Yes,In Person
+UA0171,0,1,Completed,Not Completed,0.5119,Incorrect,False Positive,36-50,Female,North,Second Year,Health,Course Planning,0,3,2.37,Yes,In Person
+UA0071,1,0,Not Completed,Completed,0.0777,Incorrect,False Negative,18-25,Female,North,First Year,Business,Graduation Check,1,7,1.99,Yes,In Person
+UA0095,0,0,Completed,Completed,0.0777,Correct,True Negative,36-50,Male,North,Second Year,Arts,Course Planning,0,11,1.95,Yes,In Person
+UA0159,0,0,Completed,Completed,0.0777,Correct,True Negative,18-25,Female,North,Third Year,Health,Course Planning,0,7,2.11,Yes,Phone
+UA0028,0,0,Completed,Completed,0.0777,Correct,True Negative,18-25,Male,North,Third Year,Engineering,Graduation Check,0,8,2.51,Yes,Online
+UA0143,0,0,Completed,Completed,0.1304,Correct,True Negative,18-25,Female,South,Third Year,Engineering,Course Planning,1,1,3.57,Yes,Phone
+UA0031,1,1,Not Completed,Not Completed,0.5119,Correct,True Positive,26-35,Male,West,Fourth Year,Engineering,Graduation Check,1,4,2.06,No,In Person
