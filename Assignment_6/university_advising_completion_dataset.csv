@@ -1,0 +1,361 @@
+appointment_id,student_age,age_group,gender,region,student_level,program_area,appointment_type,booking_lead_days,previous_advising_visits,missed_appointments_last_year,credits_completed,current_gpa,email_reminder_sent,appointment_mode,advisor_rating_previous,appointment_completed
+UA0001,45,36-50,Male,North,First Year,Health,Course Planning,35,9,0,82,3.64,Yes,Online,2,1
+UA0002,27,26-35,Female,East,First Year,Science,Career,4,6,0,89,2.94,Yes,In Person,3,1
+UA0003,33,26-35,Male,West,Second Year,Business,Graduation Check,17,9,1,75,2.02,Yes,In Person,4,1
+UA0004,41,36-50,Male,East,Third Year,Arts,Career,46,3,0,43,2.23,Yes,In Person,3,1
+UA0005,40,36-50,Female,North,Second Year,Engineering,Course Planning,10,8,0,39,3.33,No,In Person,5,1
+UA0006,19,18-25,Female,South,Third Year,Business,Academic Risk,39,2,0,105,1.52,Yes,Online,3,0
+UA0007,23,18-25,Female,West,Second Year,Science,Course Planning,27,11,0,110,3.34,Yes,In Person,1,1
+UA0008,36,36-50,Female,South,Second Year,Arts,Academic Risk,29,12,0,56,2.5,Yes,In Person,1,1
+UA0009,35,26-35,Female,East,Fourth Year,Arts,Graduation Check,57,1,0,65,2.43,Yes,Phone,3,0
+UA0010,42,36-50,Male,West,Third Year,Arts,Academic Risk,3,10,0,53,3.62,Yes,Online,5,1
+UA0011,42,36-50,Male,East,Fourth Year,Business,Academic Risk,51,9,0,11,3.82,Yes,Phone,3,1
+UA0012,24,18-25,Female,West,Fourth Year,Health,Graduation Check,57,0,0,62,3.24,Yes,Phone,3,1
+UA0013,42,36-50,Male,East,Fourth Year,Engineering,Graduation Check,43,4,2,31,3.48,Yes,In Person,2,0
+UA0014,24,18-25,Female,South,Second Year,Health,Course Planning,50,2,0,46,2.32,Yes,In Person,2,1
+UA0015,39,36-50,Male,North,Second Year,Arts,Graduation Check,40,0,0,119,3.82,Yes,Phone,1,1
+UA0016,43,36-50,Female,East,Third Year,Business,Career,31,12,0,41,1.93,No,Online,4,1
+UA0017,27,26-35,Male,East,Fourth Year,Arts,Course Planning,17,3,0,91,3.73,Yes,Phone,4,1
+UA0018,44,36-50,Female,West,Third Year,Engineering,Course Planning,46,0,1,105,1.85,Yes,Online,4,0
+UA0019,19,18-25,Female,East,First Year,Arts,Career,25,8,2,74,3.2,Yes,Online,5,1
+UA0020,45,36-50,Male,South,Fourth Year,Arts,Graduation Check,54,3,0,113,2.0,Yes,Online,1,1
+UA0021,21,18-25,Male,West,Second Year,Business,Academic Risk,29,1,0,103,3.1,No,In Person,2,0
+UA0022,18,18-25,Male,East,Second Year,Health,Graduation Check,27,9,0,78,3.71,Yes,Phone,5,1
+UA0023,37,36-50,Male,East,Third Year,Business,Academic Risk,14,9,0,86,3.51,Yes,Phone,2,1
+UA0024,40,36-50,Female,East,Second Year,Business,Course Planning,49,9,0,59,1.59,Yes,Online,1,0
+UA0025,31,26-35,Male,North,Fourth Year,Engineering,Graduation Check,35,12,0,96,2.17,Yes,Online,2,1
+UA0026,45,36-50,Female,South,Second Year,Arts,Course Planning,22,2,1,108,3.65,Yes,In Person,4,1
+UA0027,24,18-25,Female,West,Third Year,Science,Graduation Check,10,12,0,63,3.43,Yes,Phone,1,1
+UA0028,20,18-25,Male,North,Third Year,Engineering,Graduation Check,25,8,0,67,2.51,Yes,Online,5,1
+UA0029,29,26-35,Female,North,First Year,Health,Graduation Check,8,7,2,92,3.95,Yes,Phone,3,1
+UA0030,20,18-25,Female,East,Second Year,Arts,Course Planning,33,2,2,111,3.57,No,Phone,5,1
+UA0031,31,26-35,Male,West,Fourth Year,Engineering,Graduation Check,32,4,1,87,2.06,No,In Person,2,0
+UA0032,28,26-35,Male,South,Third Year,Arts,Academic Risk,20,5,0,68,2.93,Yes,Phone,5,1
+UA0033,41,36-50,Female,West,Second Year,Arts,Academic Risk,45,12,0,15,3.95,Yes,In Person,2,1
+UA0034,28,26-35,Male,West,First Year,Health,Academic Risk,23,9,1,108,1.68,Yes,Phone,2,0
+UA0035,32,26-35,Female,South,First Year,Science,Academic Risk,13,1,4,35,2.17,Yes,Online,1,0
+UA0036,19,18-25,Male,West,Third Year,Health,Academic Risk,27,5,1,38,3.52,Yes,In Person,3,0
+UA0037,36,36-50,Female,West,Third Year,Engineering,Career,42,0,0,64,2.7,Yes,Phone,1,0
+UA0038,43,36-50,Male,North,Second Year,Health,Graduation Check,51,11,4,120,1.63,Yes,In Person,5,0
+UA0039,30,26-35,Male,West,Graduate,Arts,Career,55,7,1,48,3.51,Yes,In Person,4,1
+UA0040,29,26-35,Male,East,First Year,Business,Academic Risk,4,9,4,37,2.66,No,Online,5,0
+UA0041,26,26-35,Female,North,First Year,Health,Career,4,1,2,60,3.34,Yes,In Person,2,0
+UA0042,27,26-35,Female,West,Third Year,Engineering,Academic Risk,49,4,0,117,3.15,Yes,Phone,1,0
+UA0043,31,26-35,Female,North,Third Year,Science,Graduation Check,24,9,2,47,2.18,Yes,In Person,3,1
+UA0044,30,26-35,Female,North,Graduate,Engineering,Course Planning,36,4,0,52,3.08,Yes,Phone,3,1
+UA0045,25,18-25,Male,North,First Year,Engineering,Course Planning,32,6,0,117,1.7,No,Online,2,0
+UA0046,19,18-25,Female,North,First Year,Engineering,Course Planning,43,12,0,24,2.33,Yes,Online,3,1
+UA0047,25,18-25,Female,North,Second Year,Health,Graduation Check,33,7,0,74,1.83,Yes,Online,4,1
+UA0048,35,26-35,Male,West,Graduate,Science,Graduation Check,2,4,0,30,3.75,Yes,In Person,2,1
+UA0049,30,26-35,Female,North,Third Year,Arts,Career,25,9,1,80,3.81,Yes,In Person,3,1
+UA0050,19,18-25,Female,North,Fourth Year,Arts,Course Planning,19,8,0,67,1.8,Yes,In Person,5,1
+UA0051,42,36-50,Male,North,Second Year,Engineering,Course Planning,24,7,1,97,1.87,Yes,Phone,1,0
+UA0052,43,36-50,Male,South,First Year,Engineering,Academic Risk,21,12,1,11,3.4,No,In Person,4,1
+UA0053,24,18-25,Male,West,First Year,Health,Career,12,10,0,28,4.0,Yes,Online,2,1
+UA0054,18,18-25,Male,South,Third Year,Arts,Career,36,4,1,76,3.01,Yes,Phone,4,0
+UA0055,44,36-50,Female,South,First Year,Arts,Career,24,10,2,43,1.55,Yes,Phone,1,1
+UA0056,38,36-50,Male,East,Second Year,Science,Course Planning,2,7,2,18,3.15,Yes,In Person,3,0
+UA0057,24,18-25,Male,East,Fourth Year,Business,Graduation Check,49,11,0,64,3.02,Yes,Online,1,1
+UA0058,30,26-35,Male,South,Graduate,Business,Career,32,10,0,93,2.88,Yes,Phone,3,1
+UA0059,25,18-25,Male,North,First Year,Engineering,Course Planning,1,5,2,79,3.38,Yes,In Person,3,1
+UA0060,38,36-50,Male,East,Second Year,Arts,Course Planning,59,11,0,8,3.06,Yes,Phone,4,1
+UA0061,22,18-25,Male,North,Third Year,Health,Graduation Check,44,11,0,66,2.78,Yes,Online,3,1
+UA0062,28,26-35,Female,South,Second Year,Arts,Course Planning,34,6,0,100,3.42,Yes,Phone,4,1
+UA0063,35,26-35,Male,South,Fourth Year,Science,Course Planning,26,10,0,62,2.4,No,Phone,2,1
+UA0064,39,36-50,Female,North,Third Year,Engineering,Graduation Check,27,9,0,66,2.49,Yes,Online,5,1
+UA0065,29,26-35,Male,West,Second Year,Engineering,Academic Risk,41,9,0,5,2.08,Yes,Online,1,0
+UA0066,33,26-35,Female,South,Graduate,Arts,Career,35,4,1,17,,Yes,Online,1,0
+UA0067,30,26-35,Female,South,Fourth Year,Business,Career,55,10,3,104,2.63,Yes,In Person,4,0
+UA0068,22,18-25,Female,East,Third Year,Engineering,Course Planning,22,11,1,85,1.97,Yes,Online,1,1
+UA0069,24,18-25,Female,East,Second Year,Health,Academic Risk,56,6,0,15,3.73,Yes,Online,3,1
+UA0070,20,18-25,Male,West,Third Year,Health,Graduation Check,56,12,0,100,1.64,Yes,Phone,2,1
+UA0071,24,18-25,Female,North,First Year,Business,Graduation Check,5,7,1,35,1.99,Yes,In Person,2,0
+UA0072,43,36-50,Female,West,Fourth Year,Science,Course Planning,24,0,1,73,2.7,Yes,In Person,2,0
+UA0073,32,26-35,Female,South,Graduate,Health,Academic Risk,50,3,3,20,3.48,Yes,In Person,3,0
+UA0074,31,26-35,Female,North,Graduate,Business,Course Planning,10,7,0,100,3.9,Yes,Phone,2,1
+UA0075,36,36-50,Male,North,First Year,Health,Career,56,3,0,103,2.99,Yes,Phone,5,0
+UA0076,34,26-35,Male,East,First Year,Engineering,Course Planning,50,0,0,91,2.64,Yes,In Person,5,1
+UA0077,43,36-50,Female,North,Graduate,Engineering,Course Planning,4,8,0,105,2.85,No,In Person,3,1
+UA0078,35,26-35,Male,West,First Year,Engineering,Graduation Check,43,2,0,7,3.33,No,Phone,1,1
+UA0079,30,26-35,Female,West,Graduate,Science,Course Planning,21,0,0,111,1.77,Yes,In Person,1,1
+UA0080,36,36-50,Female,North,Second Year,Science,Career,46,11,0,107,3.41,Yes,Online,2,1
+UA0081,24,18-25,Male,West,Second Year,Engineering,Career,11,6,0,114,2.07,Yes,In Person,2,1
+UA0082,19,18-25,Male,North,Second Year,Engineering,Academic Risk,35,5,0,76,3.35,Yes,Online,2,0
+UA0083,44,36-50,Male,North,Fourth Year,Engineering,Course Planning,56,5,2,68,3.59,Yes,Online,5,0
+UA0084,43,36-50,Male,North,First Year,Arts,Academic Risk,51,12,1,117,3.23,Yes,Online,2,1
+UA0085,39,36-50,Female,North,Fourth Year,Business,Career,37,8,0,115,3.97,Yes,Phone,4,1
+UA0086,43,36-50,Female,South,Third Year,Health,Course Planning,38,6,0,89,2.81,Yes,In Person,4,1
+UA0087,45,36-50,Male,South,Graduate,Science,Graduation Check,31,4,0,66,3.9,Yes,Phone,2,1
+UA0088,25,18-25,Female,East,Third Year,Business,Career,10,1,1,108,3.86,Yes,Online,3,1
+UA0089,34,26-35,Male,North,Third Year,Health,Career,21,11,0,81,3.1,Yes,In Person,3,1
+UA0090,45,36-50,Male,South,Third Year,Business,Career,28,7,0,10,2.02,Yes,Online,4,1
+UA0091,33,26-35,Male,South,Graduate,Arts,Academic Risk,9,1,1,35,1.9,Yes,In Person,4,0
+UA0092,43,36-50,Male,West,Second Year,Arts,Course Planning,60,9,0,90,3.71,Yes,Online,1,0
+UA0093,21,18-25,Male,East,Second Year,Engineering,Career,23,4,0,51,1.62,No,Online,2,0
+UA0094,37,36-50,Female,North,Fourth Year,Science,Career,10,5,0,32,3.6,No,In Person,2,1
+UA0095,43,36-50,Male,North,Second Year,Arts,Course Planning,34,11,0,97,1.95,Yes,In Person,3,1
+UA0096,23,18-25,Female,South,First Year,Arts,Graduation Check,57,4,0,22,2.2,Yes,Phone,3,0
+UA0097,33,26-35,Male,West,Second Year,Health,Course Planning,18,2,1,47,3.87,Yes,Phone,1,1
+UA0098,40,36-50,Male,East,Second Year,Business,Course Planning,47,1,1,36,3.13,Yes,Online,5,1
+UA0099,43,36-50,Male,South,Graduate,Science,Career,6,4,2,20,3.81,Yes,In Person,5,1
+UA0100,41,36-50,Male,North,Second Year,Business,Academic Risk,23,0,0,16,2.6,Yes,Phone,1,0
+UA0101,32,26-35,Female,East,Third Year,Engineering,Career,23,5,2,46,2.09,Yes,Online,3,0
+UA0102,31,26-35,Male,West,First Year,Business,Graduation Check,10,3,0,34,2.13,Yes,In Person,5,1
+UA0103,27,26-35,Female,West,Second Year,Health,Course Planning,39,1,2,118,1.98,Yes,In Person,5,0
+UA0104,30,26-35,Female,West,Third Year,Arts,Academic Risk,6,10,0,25,3.2,Yes,In Person,2,1
+UA0105,45,36-50,Female,South,Second Year,Health,Graduation Check,13,8,1,15,2.65,Yes,Online,4,1
+UA0106,19,18-25,Male,South,Second Year,Arts,Academic Risk,9,0,1,81,3.6,Yes,In Person,4,0
+UA0107,24,18-25,Female,West,First Year,Engineering,Academic Risk,44,8,0,117,2.12,Yes,Online,4,1
+UA0108,40,36-50,Female,South,Second Year,Engineering,Graduation Check,1,7,2,55,1.96,Yes,Phone,1,0
+UA0109,37,36-50,Male,North,Second Year,Business,Academic Risk,31,12,0,110,2.12,No,Phone,4,1
+UA0110,31,26-35,Female,North,First Year,Science,Graduation Check,13,5,0,34,1.96,Yes,In Person,4,1
+UA0111,22,18-25,Male,West,Fourth Year,Health,Course Planning,8,12,0,92,3.19,Yes,Phone,2,1
+UA0112,44,36-50,Male,North,Fourth Year,Science,Career,44,5,1,33,3.28,Yes,Phone,3,0
+UA0113,22,18-25,Male,East,First Year,Engineering,Graduation Check,31,6,0,78,2.58,Yes,Phone,1,0
+UA0114,44,36-50,Female,West,Second Year,Business,Course Planning,35,7,0,50,3.74,No,In Person,4,1
+UA0115,37,36-50,Female,South,First Year,Arts,Career,4,10,0,69,3.77,Yes,Phone,2,1
+UA0116,23,18-25,Male,North,Second Year,Business,Course Planning,30,6,3,56,3.36,Yes,Phone,3,0
+UA0117,45,36-50,Female,South,Third Year,Arts,Course Planning,17,11,0,108,2.16,Yes,Online,2,1
+UA0118,45,36-50,Female,North,Fourth Year,Science,Career,57,6,0,20,3.66,Yes,In Person,2,0
+UA0119,39,36-50,Female,East,Fourth Year,Business,Academic Risk,5,12,0,87,2.3,Yes,In Person,2,1
+UA0120,37,36-50,Male,West,Third Year,Engineering,Course Planning,40,1,3,55,2.77,Yes,Phone,4,0
+UA0121,36,36-50,Female,North,Graduate,Science,Academic Risk,43,2,0,16,1.58,No,Phone,5,0
+UA0122,23,18-25,Female,North,Third Year,Health,Graduation Check,41,3,1,59,2.76,Yes,Online,5,1
+UA0123,20,18-25,Female,North,Third Year,Business,Career,17,4,1,73,1.88,Yes,Phone,2,0
+UA0124,40,36-50,Female,West,Graduate,Business,Course Planning,3,2,2,33,1.81,No,Phone,4,0
+UA0125,20,18-25,Female,North,Graduate,Engineering,Course Planning,32,10,0,82,2.94,No,Phone,5,0
+UA0126,43,36-50,Male,South,Second Year,Health,Academic Risk,19,8,0,23,3.66,Yes,In Person,1,1
+UA0127,33,26-35,Female,South,Third Year,Arts,Course Planning,5,4,0,114,3.74,Yes,Phone,4,1
+UA0128,27,26-35,Female,East,First Year,Health,Course Planning,12,11,0,119,3.28,Yes,Online,2,1
+UA0129,31,26-35,Male,North,Fourth Year,Health,Career,32,11,0,56,3.92,Yes,Phone,1,1
+UA0130,26,26-35,Male,East,First Year,Science,Course Planning,22,4,3,2,3.29,Yes,Online,5,0
+UA0131,19,18-25,Male,East,Second Year,Health,Academic Risk,21,1,2,71,2.99,Yes,Phone,1,0
+UA0132,29,26-35,Female,North,Third Year,Health,Graduation Check,13,9,0,104,2.59,Yes,Online,2,1
+UA0133,33,26-35,Male,North,First Year,Business,Graduation Check,19,5,0,5,2.84,Yes,Online,2,1
+UA0134,23,18-25,Female,North,Third Year,Science,Academic Risk,33,3,0,42,2.36,No,Online,5,1
+UA0135,28,26-35,Male,North,First Year,Health,Career,40,11,3,65,2.1,Yes,Online,1,0
+UA0136,31,26-35,Male,North,Second Year,Engineering,Academic Risk,6,2,0,118,3.19,Yes,Online,5,1
+UA0137,30,26-35,Male,North,Fourth Year,Business,Course Planning,52,0,0,74,1.62,No,Phone,3,0
+UA0138,27,26-35,Male,North,First Year,Engineering,Course Planning,40,2,0,41,2.84,No,In Person,1,0
+UA0139,30,26-35,Female,South,Graduate,Arts,Course Planning,58,7,0,56,3.54,Yes,Online,1,1
+UA0140,21,18-25,Male,North,Graduate,Business,Academic Risk,16,0,0,34,2.2,Yes,In Person,1,0
+UA0141,36,36-50,Female,North,Second Year,Health,Course Planning,54,7,0,41,1.68,Yes,Online,5,0
+UA0142,19,18-25,Male,West,First Year,Science,Course Planning,54,9,2,87,2.09,Yes,In Person,1,0
+UA0143,20,18-25,Female,South,Third Year,Engineering,Course Planning,41,1,1,116,3.57,Yes,Phone,4,1
+UA0144,42,36-50,Female,North,Second Year,Science,Academic Risk,19,2,0,26,2.82,Yes,Online,4,1
+UA0145,23,18-25,Male,East,Fourth Year,Business,Graduation Check,14,3,0,38,2.95,Yes,Phone,4,1
+UA0146,26,26-35,Female,South,Third Year,Engineering,Course Planning,42,6,0,113,,Yes,Phone,3,0
+UA0147,28,26-35,Female,West,Third Year,Arts,Graduation Check,43,5,0,88,1.55,No,Phone,3,1
+UA0148,44,36-50,Male,West,First Year,Arts,Career,11,5,1,102,1.92,Yes,Online,5,1
+UA0149,31,26-35,Female,North,First Year,Engineering,Career,7,8,1,90,2.41,Yes,Phone,4,1
+UA0150,18,18-25,Male,West,Fourth Year,Health,Career,2,12,0,42,1.58,No,Phone,3,1
+UA0151,26,26-35,Male,West,Graduate,Health,Academic Risk,34,8,0,84,3.52,Yes,Online,1,0
+UA0152,21,18-25,Male,North,First Year,Business,Career,57,1,0,106,2.92,Yes,Online,2,0
+UA0153,39,36-50,Male,South,Fourth Year,Science,Academic Risk,17,4,1,119,1.61,Yes,In Person,3,1
+UA0154,45,36-50,Male,South,Third Year,Business,Academic Risk,11,1,0,98,2.71,No,Phone,1,0
+UA0155,33,26-35,Male,West,Fourth Year,Business,Graduation Check,57,3,0,3,1.72,Yes,Online,1,0
+UA0156,40,36-50,Male,East,First Year,Engineering,Course Planning,39,0,0,67,3.03,Yes,Phone,3,1
+UA0157,28,26-35,Male,South,First Year,Health,Course Planning,30,7,0,85,1.97,Yes,In Person,1,1
+UA0158,37,36-50,Male,West,Second Year,Arts,Course Planning,15,12,1,67,3.54,Yes,Online,4,1
+UA0159,20,18-25,Female,North,Third Year,Health,Course Planning,26,7,0,101,2.11,Yes,Phone,5,1
+UA0160,22,18-25,Male,South,Fourth Year,Health,Course Planning,47,7,0,93,3.17,Yes,In Person,4,1
+UA0161,26,26-35,Female,East,Second Year,Science,Academic Risk,36,1,0,107,1.79,Yes,Online,5,0
+UA0162,45,36-50,Female,West,Second Year,Health,Academic Risk,38,8,0,97,1.56,Yes,Online,4,1
+UA0163,38,36-50,Female,West,Graduate,Health,Graduation Check,6,1,0,111,2.54,Yes,In Person,5,1
+UA0164,35,26-35,Male,East,Fourth Year,Arts,Course Planning,42,9,0,116,2.72,No,Phone,5,1
+UA0165,23,18-25,Male,North,Graduate,Science,Academic Risk,22,7,0,61,3.27,No,Online,1,1
+UA0166,26,26-35,Male,East,Second Year,Science,Career,56,0,3,17,3.49,No,Phone,1,0
+UA0167,25,18-25,Female,East,Fourth Year,Business,Graduation Check,41,0,2,4,2.07,No,Phone,3,0
+UA0168,30,26-35,Male,West,First Year,Arts,Career,49,12,0,57,,Yes,Phone,3,1
+UA0169,36,36-50,Male,South,First Year,Science,Graduation Check,60,9,2,98,2.2,Yes,Phone,3,0
+UA0170,38,36-50,Male,West,Third Year,Arts,Course Planning,11,4,2,37,2.67,Yes,Online,4,1
+UA0171,42,36-50,Female,North,Second Year,Health,Course Planning,46,3,0,120,2.37,Yes,In Person,1,1
+UA0172,43,36-50,Male,West,Second Year,Science,Academic Risk,10,9,0,50,2.29,Yes,Phone,1,1
+UA0173,41,36-50,Male,East,First Year,Engineering,Career,53,8,0,98,3.0,Yes,Online,4,1
+UA0174,36,36-50,Male,West,Third Year,Business,Graduation Check,30,12,0,82,1.79,Yes,Online,2,1
+UA0175,31,26-35,Male,East,Fourth Year,Business,Course Planning,48,0,0,110,3.92,Yes,Phone,1,1
+UA0176,39,36-50,Female,East,Second Year,Business,Course Planning,37,10,0,111,2.11,Yes,Phone,1,0
+UA0177,22,18-25,Male,East,Second Year,Health,Graduation Check,32,11,1,53,1.63,Yes,In Person,3,1
+UA0178,33,26-35,Male,South,Fourth Year,Engineering,Course Planning,16,2,0,37,3.35,No,Online,4,0
+UA0179,20,18-25,Male,South,Graduate,Arts,Course Planning,60,3,3,61,2.61,Yes,Online,5,0
+UA0180,21,18-25,Male,West,Second Year,Science,Graduation Check,31,11,0,118,2.74,Yes,Online,1,1
+UA0181,19,18-25,Female,North,Fourth Year,Business,Career,17,6,0,6,3.39,Yes,Phone,1,1
+UA0182,30,26-35,Female,South,Second Year,Business,Career,6,8,0,13,2.84,Yes,In Person,1,1
+UA0183,21,18-25,Male,North,Third Year,Health,Graduation Check,19,6,0,26,2.16,Yes,Online,4,1
+UA0184,25,18-25,Female,West,Fourth Year,Engineering,Course Planning,4,7,0,66,2.04,Yes,In Person,2,1
+UA0185,21,18-25,Female,East,Third Year,Engineering,Academic Risk,26,3,0,8,3.29,Yes,Online,4,1
+UA0186,38,36-50,Male,South,Graduate,Engineering,Graduation Check,16,8,0,80,2.7,No,Online,1,1
+UA0187,22,18-25,Male,North,Third Year,Engineering,Graduation Check,6,8,0,98,3.94,Yes,In Person,5,1
+UA0188,21,18-25,Male,North,First Year,Science,Graduation Check,22,7,0,116,2.52,No,Phone,3,1
+UA0189,19,18-25,Male,West,Third Year,Arts,Academic Risk,37,6,0,92,3.14,Yes,Phone,1,0
+UA0190,40,36-50,Female,East,Fourth Year,Engineering,Career,14,1,0,114,2.95,Yes,Online,3,0
+UA0191,23,18-25,Male,South,Second Year,Engineering,Career,28,11,1,3,2.16,Yes,Phone,1,0
+UA0192,34,26-35,Female,East,First Year,Science,Academic Risk,55,10,0,18,2.49,Yes,In Person,2,1
+UA0193,31,26-35,Female,North,Graduate,Engineering,Academic Risk,60,3,0,110,2.2,No,Online,5,0
+UA0194,29,26-35,Female,East,Fourth Year,Engineering,Graduation Check,26,5,1,61,3.06,Yes,In Person,5,1
+UA0195,22,18-25,Female,South,Second Year,Health,Academic Risk,29,12,0,23,1.56,No,In Person,1,1
+UA0196,41,36-50,Female,South,First Year,Business,Career,5,3,1,26,2.52,Yes,Phone,5,1
+UA0197,25,18-25,Female,South,Graduate,Engineering,Career,55,6,2,44,2.81,No,In Person,4,0
+UA0198,38,36-50,Female,West,Fourth Year,Arts,Career,17,9,0,57,3.56,Yes,In Person,5,1
+UA0199,45,36-50,Male,East,Graduate,Science,Graduation Check,34,4,0,1,1.9,Yes,Phone,1,1
+UA0200,32,26-35,Male,East,First Year,Science,Academic Risk,50,11,0,59,3.5,No,Online,4,1
+UA0201,34,26-35,Male,West,Second Year,Arts,Graduation Check,22,6,2,83,2.21,No,Online,1,0
+UA0202,41,36-50,Male,West,Third Year,Health,Academic Risk,4,2,4,70,3.9,Yes,Online,5,0
+UA0203,20,18-25,Female,South,Second Year,Science,Academic Risk,10,1,4,9,3.34,Yes,Online,2,0
+UA0204,24,18-25,Male,South,Fourth Year,Science,Academic Risk,52,7,0,86,2.27,Yes,Online,2,1
+UA0205,41,36-50,Female,West,Fourth Year,Health,Academic Risk,17,1,0,83,2.65,Yes,Online,5,1
+UA0206,26,26-35,Male,West,First Year,Health,Course Planning,20,2,0,119,2.48,No,Phone,5,0
+UA0207,21,18-25,Male,North,Third Year,Science,Course Planning,54,7,2,39,2.74,Yes,In Person,5,1
+UA0208,23,18-25,Male,North,First Year,Health,Graduation Check,58,2,3,48,2.34,Yes,Online,5,1
+UA0209,28,26-35,Female,South,Second Year,Health,Academic Risk,41,6,0,79,2.32,Yes,Phone,4,1
+UA0210,30,26-35,Female,West,First Year,Arts,Course Planning,7,0,0,71,2.81,Yes,Online,2,0
+UA0211,28,26-35,Male,West,Graduate,Business,Career,54,3,3,27,2.91,Yes,Phone,3,0
+UA0212,26,26-35,Male,North,Graduate,Health,Academic Risk,37,6,0,105,3.41,Yes,Phone,3,0
+UA0213,27,26-35,Female,North,Fourth Year,Science,Career,16,3,1,63,2.06,Yes,In Person,5,1
+UA0214,40,36-50,Female,East,Third Year,Health,Career,12,11,0,73,3.36,Yes,Online,2,1
+UA0215,33,26-35,Male,North,Third Year,Health,Course Planning,19,5,0,67,1.86,No,Phone,4,0
+UA0216,35,26-35,Male,East,Third Year,Arts,Academic Risk,49,12,0,15,2.64,Yes,Online,5,1
+UA0217,22,18-25,Male,West,First Year,Health,Course Planning,35,4,2,79,1.79,Yes,Online,1,0
+UA0218,28,26-35,Male,East,Fourth Year,Science,Course Planning,11,9,0,51,3.95,No,Online,4,1
+UA0219,19,18-25,Male,West,Fourth Year,Science,Academic Risk,43,0,0,104,3.33,No,Online,1,0
+UA0220,40,36-50,Male,East,Third Year,Business,Academic Risk,39,7,2,30,2.99,Yes,Online,3,0
+UA0221,44,36-50,Female,West,First Year,Health,Graduation Check,23,10,1,98,2.55,Yes,In Person,3,1
+UA0222,34,26-35,Male,West,First Year,Health,Graduation Check,43,1,0,117,2.18,No,Phone,5,0
+UA0223,22,18-25,Female,West,Fourth Year,Engineering,Academic Risk,30,9,2,13,2.96,Yes,In Person,4,1
+UA0224,18,18-25,Female,East,Third Year,Health,Career,20,10,0,50,2.58,Yes,Phone,5,1
+UA0225,26,26-35,Female,North,Graduate,Science,Career,60,6,2,59,2.11,Yes,In Person,2,0
+UA0226,39,36-50,Female,South,First Year,Engineering,Course Planning,38,4,1,55,2.09,Yes,Online,5,1
+UA0227,41,36-50,Male,South,Fourth Year,Arts,Career,45,6,3,46,3.1,Yes,In Person,1,0
+UA0228,35,26-35,Female,North,First Year,Engineering,Graduation Check,51,2,3,8,3.32,Yes,In Person,3,0
+UA0229,30,26-35,Male,East,Fourth Year,Arts,Academic Risk,56,5,0,101,2.83,Yes,In Person,3,0
+UA0230,45,36-50,Male,North,Second Year,Health,Academic Risk,33,12,0,40,1.79,No,Online,5,1
+UA0231,28,26-35,Female,West,Graduate,Health,Academic Risk,3,2,0,0,3.83,Yes,Phone,5,1
+UA0232,24,18-25,Female,West,Second Year,Science,Course Planning,22,10,0,42,2.32,No,Online,1,0
+UA0233,35,26-35,Female,South,Graduate,Arts,Academic Risk,39,7,0,70,2.7,Yes,In Person,2,0
+UA0234,24,18-25,Male,East,Second Year,Science,Academic Risk,29,8,0,66,2.24,Yes,Online,3,1
+UA0235,32,26-35,Male,West,Fourth Year,Health,Academic Risk,13,4,0,78,2.88,Yes,In Person,4,1
+UA0236,22,18-25,Male,South,Second Year,Engineering,Course Planning,55,4,0,100,2.44,Yes,In Person,5,1
+UA0237,23,18-25,Male,East,Third Year,Engineering,Academic Risk,52,9,0,91,1.66,Yes,Online,2,1
+UA0238,22,18-25,Male,North,Third Year,Business,Course Planning,59,7,1,102,1.7,No,In Person,5,1
+UA0239,21,18-25,Male,South,Second Year,Engineering,Academic Risk,18,3,0,6,3.99,Yes,Online,4,1
+UA0240,35,26-35,Female,South,First Year,Engineering,Course Planning,58,7,1,56,2.52,Yes,In Person,3,0
+UA0241,28,26-35,Female,East,Second Year,Arts,Career,14,10,0,46,2.37,Yes,In Person,5,1
+UA0242,42,36-50,Male,West,Second Year,Engineering,Career,60,5,2,31,2.81,Yes,In Person,5,1
+UA0243,29,26-35,Male,West,Third Year,Science,Academic Risk,35,5,2,78,3.57,Yes,Online,5,1
+UA0244,24,18-25,Male,East,First Year,Arts,Academic Risk,32,11,1,81,1.91,No,In Person,5,1
+UA0245,23,18-25,Female,South,First Year,Business,Career,32,6,0,26,3.63,No,Online,4,1
+UA0246,23,18-25,Male,East,First Year,Arts,Academic Risk,14,0,1,13,3.81,Yes,Online,5,1
+UA0247,26,26-35,Male,South,First Year,Science,Academic Risk,51,9,0,64,2.0,Yes,Online,2,0
+UA0248,32,26-35,Male,East,Fourth Year,Engineering,Academic Risk,27,6,0,13,2.52,Yes,In Person,4,1
+UA0249,18,18-25,Female,West,Fourth Year,Arts,Career,9,5,0,64,3.59,No,Online,3,1
+UA0250,38,36-50,Female,West,First Year,Health,Career,15,9,0,111,2.77,No,Online,5,1
+UA0251,18,18-25,Female,West,Graduate,Business,Graduation Check,11,0,1,68,3.42,No,In Person,4,1
+UA0252,30,26-35,Female,West,Third Year,Science,Academic Risk,14,2,0,92,1.77,Yes,In Person,4,0
+UA0253,24,18-25,Female,East,First Year,Science,Graduation Check,24,3,1,112,2.83,Yes,Phone,2,0
+UA0254,35,26-35,Male,East,Second Year,Science,Academic Risk,21,8,3,73,3.64,Yes,Phone,4,1
+UA0255,43,36-50,Female,South,Third Year,Arts,Course Planning,57,9,0,6,3.75,Yes,Online,3,1
+UA0256,30,26-35,Female,North,First Year,Business,Course Planning,46,9,3,5,3.34,Yes,In Person,2,1
+UA0257,22,18-25,Female,East,Second Year,Health,Course Planning,53,12,0,44,3.73,No,Online,3,1
+UA0258,44,36-50,Male,West,First Year,Arts,Career,17,6,1,12,2.59,Yes,Online,4,0
+UA0259,43,36-50,Female,East,Third Year,Health,Course Planning,11,10,0,99,1.97,No,Phone,2,1
+UA0260,22,18-25,Male,South,First Year,Arts,Graduation Check,20,8,0,95,1.51,Yes,Phone,5,1
+UA0261,34,26-35,Female,South,First Year,Business,Academic Risk,38,3,0,7,2.11,Yes,Phone,1,1
+UA0262,29,26-35,Female,East,Fourth Year,Arts,Career,24,0,0,86,,Yes,In Person,1,0
+UA0263,35,26-35,Male,North,Graduate,Business,Course Planning,43,1,0,27,2.67,Yes,Online,3,0
+UA0264,43,36-50,Male,West,Second Year,Health,Career,24,12,4,104,1.82,Yes,Online,4,0
+UA0265,24,18-25,Female,West,First Year,Health,Course Planning,12,2,0,75,3.05,Yes,In Person,3,1
+UA0266,30,26-35,Female,South,Graduate,Engineering,Graduation Check,19,7,0,27,1.8,No,Online,3,0
+UA0267,39,36-50,Female,North,First Year,Engineering,Course Planning,31,8,1,28,3.78,No,Online,2,1
+UA0268,22,18-25,Male,South,First Year,Business,Course Planning,17,5,0,8,3.88,Yes,Online,4,1
+UA0269,45,36-50,Female,West,First Year,Science,Graduation Check,33,10,4,70,3.92,No,Phone,1,0
+UA0270,38,36-50,Male,East,Fourth Year,Science,Graduation Check,37,6,0,36,1.6,No,Online,3,1
+UA0271,42,36-50,Male,North,First Year,Arts,Academic Risk,5,9,2,5,1.91,No,In Person,2,0
+UA0272,39,36-50,Male,South,Graduate,Health,Career,13,5,0,83,4.0,Yes,In Person,4,1
+UA0273,45,36-50,Female,South,Third Year,Health,Academic Risk,38,8,1,91,2.61,Yes,In Person,3,1
+UA0274,38,36-50,Male,East,Fourth Year,Science,Career,33,7,1,70,3.38,Yes,Online,5,1
+UA0275,33,26-35,Male,West,Graduate,Engineering,Career,20,11,1,115,1.85,No,Phone,5,1
+UA0276,26,26-35,Male,South,Second Year,Health,Academic Risk,49,9,0,9,2.7,Yes,Online,1,0
+UA0277,39,36-50,Female,West,Third Year,Health,Graduation Check,9,5,0,34,1.92,Yes,Phone,1,0
+UA0278,43,36-50,Male,South,Fourth Year,Health,Graduation Check,34,3,1,58,2.24,Yes,Online,4,0
+UA0279,26,26-35,Male,South,First Year,Business,Career,34,4,2,6,3.69,Yes,Online,5,1
+UA0280,36,36-50,Male,East,Second Year,Arts,Career,10,7,0,70,3.49,Yes,Phone,3,1
+UA0281,37,36-50,Female,East,First Year,Engineering,Course Planning,55,7,1,32,3.77,Yes,In Person,3,0
+UA0282,30,26-35,Female,North,First Year,Science,Academic Risk,14,6,0,119,3.95,Yes,Online,2,1
+UA0283,43,36-50,Male,East,Third Year,Health,Academic Risk,15,8,2,42,3.41,Yes,Online,2,0
+UA0284,38,36-50,Male,East,Fourth Year,Science,Graduation Check,37,6,0,96,2.31,No,Online,3,1
+UA0285,30,26-35,Female,East,First Year,Engineering,Graduation Check,27,12,2,26,2.04,Yes,Online,4,1
+UA0286,27,26-35,Female,North,Fourth Year,Health,Graduation Check,2,11,1,30,1.88,Yes,Online,5,1
+UA0287,26,26-35,Female,South,Second Year,Business,Academic Risk,53,3,1,110,,No,Phone,1,0
+UA0288,30,26-35,Male,South,Graduate,Business,Academic Risk,48,10,0,1,3.96,Yes,Online,4,1
+UA0289,33,26-35,Male,West,Fourth Year,Arts,Academic Risk,40,12,1,42,3.99,Yes,In Person,3,1
+UA0290,29,26-35,Male,South,Fourth Year,Engineering,Graduation Check,54,3,0,108,2.92,Yes,In Person,5,1
+UA0291,37,36-50,Female,North,Fourth Year,Business,Course Planning,45,10,0,23,2.43,Yes,Phone,1,1
+UA0292,25,18-25,Male,South,Fourth Year,Engineering,Graduation Check,19,12,0,28,1.57,Yes,In Person,5,1
+UA0293,43,36-50,Male,East,Fourth Year,Arts,Course Planning,3,5,0,104,2.2,Yes,Phone,1,0
+UA0294,40,36-50,Female,West,Third Year,Science,Course Planning,27,9,0,70,2.88,No,Phone,2,0
+UA0295,31,26-35,Female,East,Third Year,Arts,Career,28,12,2,84,2.95,No,In Person,1,0
+UA0296,18,18-25,Female,North,Graduate,Science,Academic Risk,59,5,2,2,2.8,No,In Person,3,0
+UA0297,30,26-35,Female,North,First Year,Science,Course Planning,25,2,3,119,1.55,No,Phone,4,0
+UA0298,37,36-50,Male,South,First Year,Arts,Course Planning,38,6,0,105,2.05,Yes,In Person,5,0
+UA0299,40,36-50,Male,North,Graduate,Arts,Academic Risk,35,12,0,74,3.79,No,Phone,4,1
+UA0300,21,18-25,Female,North,Fourth Year,Health,Course Planning,7,11,0,67,2.37,No,In Person,2,0
+UA0301,24,18-25,Female,West,Graduate,Arts,Academic Risk,29,3,0,28,1.83,Yes,Phone,3,0
+UA0302,30,26-35,Female,South,First Year,Business,Graduation Check,46,9,2,33,3.48,Yes,In Person,5,1
+UA0303,39,36-50,Male,North,Second Year,Arts,Course Planning,38,12,0,37,2.63,Yes,Phone,1,1
+UA0304,39,36-50,Male,North,Third Year,Business,Course Planning,48,12,0,17,2.78,Yes,In Person,3,1
+UA0305,23,18-25,Female,North,Third Year,Science,Graduation Check,29,1,0,9,3.48,No,Online,5,1
+UA0306,42,36-50,Male,West,Second Year,Engineering,Graduation Check,30,9,1,31,2.83,No,Online,3,1
+UA0307,28,26-35,Female,North,First Year,Health,Graduation Check,43,12,1,7,1.8,Yes,In Person,5,1
+UA0308,44,36-50,Female,West,First Year,Science,Academic Risk,11,11,0,102,3.73,Yes,Phone,2,1
+UA0309,44,36-50,Female,North,Graduate,Arts,Course Planning,40,0,0,90,2.19,Yes,Online,4,0
+UA0310,40,36-50,Male,North,First Year,Business,Graduation Check,6,3,2,91,2.33,Yes,Online,2,1
+UA0311,31,26-35,Male,West,Second Year,Health,Graduation Check,33,8,0,71,2.97,Yes,Online,3,1
+UA0312,26,26-35,Female,North,Fourth Year,Business,Graduation Check,11,8,1,27,3.4,Yes,In Person,2,1
+UA0313,34,26-35,Male,North,Second Year,Science,Academic Risk,48,2,0,49,2.17,Yes,Online,1,1
+UA0314,32,26-35,Male,East,Third Year,Health,Academic Risk,37,9,0,43,3.63,Yes,Phone,5,1
+UA0315,30,26-35,Female,South,First Year,Business,Career,58,8,0,102,2.61,Yes,In Person,3,1
+UA0316,30,26-35,Female,South,Second Year,Science,Career,14,6,0,70,1.65,Yes,In Person,4,1
+UA0317,28,26-35,Female,West,Third Year,Business,Graduation Check,15,10,0,24,3.96,Yes,Phone,4,1
+UA0318,44,36-50,Male,East,Third Year,Health,Career,30,1,0,26,2.96,No,Online,5,1
+UA0319,28,26-35,Male,South,Fourth Year,Business,Academic Risk,49,1,0,79,2.6,Yes,Phone,1,0
+UA0320,43,36-50,Male,North,Second Year,Health,Career,21,7,2,83,2.41,Yes,Phone,5,0
+UA0321,44,36-50,Female,East,Second Year,Arts,Course Planning,9,12,0,118,2.36,No,In Person,2,1
+UA0322,33,26-35,Male,East,First Year,Business,Academic Risk,16,3,1,49,3.29,Yes,In Person,5,1
+UA0323,32,26-35,Female,East,First Year,Engineering,Course Planning,34,9,1,102,3.26,Yes,Online,3,1
+UA0324,34,26-35,Female,East,Graduate,Arts,Academic Risk,4,1,0,76,3.5,Yes,In Person,5,1
+UA0325,33,26-35,Female,South,Fourth Year,Science,Career,28,11,0,63,3.43,Yes,In Person,2,1
+UA0326,45,36-50,Male,East,Second Year,Arts,Course Planning,60,0,0,81,3.52,Yes,Phone,5,1
+UA0327,29,26-35,Female,West,Fourth Year,Engineering,Course Planning,39,6,2,115,3.24,No,In Person,1,0
+UA0328,18,18-25,Female,West,Graduate,Health,Course Planning,5,5,0,18,2.67,No,In Person,3,1
+UA0329,26,26-35,Female,East,First Year,Health,Graduation Check,10,4,3,81,3.23,Yes,In Person,1,0
+UA0330,27,26-35,Female,West,Third Year,Arts,Course Planning,42,7,1,89,2.86,No,Online,1,0
+UA0331,44,36-50,Male,South,Graduate,Health,Graduation Check,51,6,2,75,2.64,Yes,Online,2,0
+UA0332,34,26-35,Female,East,Second Year,Science,Graduation Check,32,0,1,44,1.86,Yes,Online,5,0
+UA0333,44,36-50,Male,South,Third Year,Arts,Course Planning,54,11,0,71,3.16,No,Online,4,1
+UA0334,43,36-50,Female,East,First Year,Engineering,Graduation Check,44,3,0,64,2.08,Yes,Phone,2,0
+UA0335,20,18-25,Male,South,Third Year,Engineering,Career,38,8,0,95,3.53,Yes,In Person,4,1
+UA0336,45,36-50,Male,East,Graduate,Arts,Academic Risk,11,12,0,19,2.33,Yes,Online,3,1
+UA0337,18,18-25,Female,North,First Year,Business,Graduation Check,45,3,0,81,1.86,No,Phone,2,0
+UA0338,24,18-25,Female,East,First Year,Engineering,Course Planning,51,0,0,72,3.3,Yes,Phone,4,1
+UA0339,37,36-50,Female,East,Second Year,Health,Course Planning,55,10,1,66,2.69,Yes,In Person,4,1
+UA0340,27,26-35,Male,South,Second Year,Business,Career,12,10,4,74,3.19,Yes,Online,1,0
+UA0341,23,18-25,Female,South,Fourth Year,Science,Career,39,7,0,83,3.56,Yes,In Person,5,1
+UA0342,20,18-25,Male,West,First Year,Science,Career,40,11,2,77,2.51,Yes,Online,4,1
+UA0343,42,36-50,Female,South,Third Year,Science,Academic Risk,8,0,1,115,2.67,Yes,Online,1,1
+UA0344,34,26-35,Female,East,Fourth Year,Arts,Course Planning,36,8,0,104,2.81,No,In Person,1,0
+UA0345,30,26-35,Male,South,Second Year,Science,Graduation Check,32,6,1,106,1.9,Yes,In Person,1,1
+UA0346,25,18-25,Male,North,First Year,Health,Academic Risk,11,10,0,81,1.56,Yes,Online,2,1
+UA0347,32,26-35,Male,North,Second Year,Arts,Career,39,7,0,35,2.32,Yes,In Person,4,1
+UA0348,42,36-50,Female,West,Fourth Year,Science,Graduation Check,26,10,0,81,2.53,Yes,Online,2,1
+UA0349,41,36-50,Female,North,First Year,Business,Course Planning,24,10,0,27,,No,Online,4,1
+UA0350,41,36-50,Male,North,Fourth Year,Health,Career,45,9,0,44,3.92,Yes,Online,2,1
+UA0351,45,36-50,Male,South,Graduate,Health,Career,25,4,4,85,2.66,Yes,Online,1,0
+UA0352,30,26-35,Female,North,Second Year,Engineering,Academic Risk,43,11,1,8,1.69,Yes,Phone,1,1
+UA0353,22,18-25,Female,West,Third Year,Science,Career,9,12,0,84,3.4,No,Phone,1,1
+UA0354,21,18-25,Female,West,Graduate,Science,Course Planning,38,7,1,85,3.62,No,Online,4,1
+UA0355,31,26-35,Male,South,Graduate,Arts,Career,20,7,0,3,3.42,Yes,Online,1,1
+UA0356,42,36-50,Female,South,Fourth Year,Arts,Academic Risk,5,9,1,88,3.22,Yes,In Person,5,1
+UA0357,30,26-35,Male,South,Third Year,Health,Graduation Check,35,9,1,63,3.52,Yes,In Person,1,1
+UA0358,19,18-25,Female,West,Graduate,Science,Academic Risk,46,12,0,101,3.74,Yes,In Person,1,1
+UA0359,33,26-35,Male,East,First Year,Science,Academic Risk,41,9,0,120,2.59,Yes,Online,5,1
+UA0360,41,36-50,Male,South,First Year,Science,Academic Risk,57,11,1,91,1.55,Yes,Online,1,1
