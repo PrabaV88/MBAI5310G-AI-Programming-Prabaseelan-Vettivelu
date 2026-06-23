@@ -1,0 +1,11 @@
+Item,Summary
+Business problem,Classify smart home support messages so they can be routed to the correct support team.
+Dataset used,NLP_Dataset_16_Smart_Home_Device_Support.xlsx
+Text column,SupportMessage
+Target variable,SupportCategory
+Preprocessing steps,"Lowercasing, punctuation removal, tokenization, stopword removal, and stemming."
+Feature extraction,TF-IDF with unigrams and bigrams.
+Model used,Logistic Regression.
+Accuracy obtained,100.00%
+Main business insight,"Frequent words show common support themes such as HomeIQ, camera, thermostat, app, light, hub, security, alert, and warranty."
+Main limitation,"The dataset is small and synthetic, so the perfect test result may not generalize to real customer messages."

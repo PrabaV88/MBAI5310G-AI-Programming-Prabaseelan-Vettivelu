@@ -1,0 +1,7 @@
+,Predicted Connectivity,Predicted Energy_Saving,Predicted Installation,Predicted Security_Alert,Predicted Voice_Assistant,Predicted Warranty_Return
+Actual Connectivity,4,0,0,0,0,0
+Actual Energy_Saving,0,4,0,0,0,0
+Actual Installation,0,0,4,0,0,0
+Actual Security_Alert,0,0,0,4,0,0
+Actual Voice_Assistant,0,0,0,0,4,0
+Actual Warranty_Return,0,0,0,0,0,4

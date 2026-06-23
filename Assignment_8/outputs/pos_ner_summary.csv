@@ -1,0 +1,4 @@
+SupportID,SupportCategory,Nouns,Verbs,Adjectives,Detected Business Entities
+SMT-005,Connectivity,"works, router, bedroom, Brampton, HomeIQ",fails,light,"[('Brampton', 'GPE', 'NLTK ne_chunk'), ('Brampton', 'Location', 'Rule-based fallback'), ('HomeIQ', 'Brand/Platform', 'Rule-based fallback')]"
+SMT-002,Security_Alert,"app, door","did, notify, opened",,[]
+SMT-003,Warranty_Return,"light, weeks, warranty, replacement","stopped, working, need",smart,"[('Smart Light', 'Device/Product', 'Rule-based fallback')]"

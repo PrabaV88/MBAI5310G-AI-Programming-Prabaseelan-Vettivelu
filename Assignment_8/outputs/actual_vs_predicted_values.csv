@@ -1,0 +1,25 @@
+Original Text,Cleaned Text,Actual Category,Predicted Category,Predicted Probability,Correct Prediction
+The app did not notify me when the back door opened.,app notifi back door open,Security_Alert,Security_Alert,0.5883,Correct
+I want to rename the camera so Siri can recognize it.,want renam camera siri recogn,Voice_Assistant,Voice_Assistant,0.509,Correct
+"The door sensor sent a motion alert at 2 AM, but no one was there.",door sensor sent motion alert one,Security_Alert,Security_Alert,0.5591,Correct
+"My smart light stopped working after two weeks, and I need a warranty replacement.",smart light stop work two week need warranti replac,Warranty_Return,Warranty_Return,0.5416,Correct
+"The setup guide was clear, and I installed the camera in Oshawa in 20 minutes.",setup guid clear instal camera oshawa minut,Installation,Installation,0.4753,Correct
+Bluetooth pairing fails after the latest firmware update.,bluetooth pair fail latest firmwar updat,Connectivity,Connectivity,0.6029,Correct
+The thermostat report helped me lower energy use during the week.,thermostat report help lower energi use week,Energy_Saving,Energy_Saving,0.5379,Correct
+THE SECURITY CAMERA DISCONNECTS FROM WI-FI EVERY NIGHT AFTER 11 PM. #HOMEIQ,secur camera disconnect wi fi everi night pm homeiq,Connectivity,Connectivity,0.4909,Correct
+I cannot install the HomeIQ thermostat because the app does not recognize the QR code. #HomeIQ,cannot instal homeiq thermostat app recogn qr code homeiq,Installation,Installation,0.565,Correct
+HomeIQ security alerts are delayed by almost 15 minutes.,homeiq secur alert delay almost minut,Security_Alert,Security_Alert,0.63,Correct
+Can I return the camera if it does not work with my Wi-Fi?,return camera work wi fi,Warranty_Return,Warranty_Return,0.5119,Correct
+Can I return the camera if it does not work with my Wi-Fi?,return camera work wi fi,Warranty_Return,Warranty_Return,0.5119,Correct
+The schedule feature works well and reduced heating at night. #HomeIQ,schedul featur work well reduc heat night homeiq,Energy_Saving,Energy_Saving,0.5199,Correct
+The schedule feature works well and reduced heating at night.,schedul featur work well reduc heat night,Energy_Saving,Energy_Saving,0.523,Correct
+Google Assistant cannot find my HomeIQ thermostat anymore.,googl assist cannot find homeiq thermostat anymor,Voice_Assistant,Voice_Assistant,0.5565,Correct
+"The door sensor sent a motion alert at 2 AM, but no one was there.",door sensor sent motion alert one,Security_Alert,Security_Alert,0.5591,Correct
+I want to rename the camera so Siri can recognize it.,want renam camera siri recogn,Voice_Assistant,Voice_Assistant,0.509,Correct
+The wall plate does not fit my old thermostat wires. #HomeIQ,wall plate fit old thermostat wire homeiq,Installation,Installation,0.5851,Correct
+The security camera disconnects from Wi-Fi every night after 11 PM.,secur camera disconnect wi fi everi night pm,Connectivity,Connectivity,0.4965,Correct
+The thermostat report helped me lower energy use during the week.,thermostat report help lower energi use week,Energy_Saving,Energy_Saving,0.5379,Correct
+"The setup guide was clear, and I installed the camera in Oshawa in 20 minutes.",setup guid clear instal camera oshawa minut,Installation,Installation,0.4753,Correct
+"My smart light stopped working after two weeks, and I need a warranty replacement. #HomeIQ",smart light stop work two week need warranti replac homeiq,Warranty_Return,Warranty_Return,0.54,Correct
+My smart speaker cannot find the HomeIQ hub even though both are online.,smart speaker cannot find homeiq hub even though onlin,Connectivity,Connectivity,0.5612,Correct
+"Voice commands worked yesterday, but today the speaker says device unavailable. #HomeIQ",voic command work yesterday today speaker say devic unavail homeiq,Voice_Assistant,Voice_Assistant,0.5821,Correct

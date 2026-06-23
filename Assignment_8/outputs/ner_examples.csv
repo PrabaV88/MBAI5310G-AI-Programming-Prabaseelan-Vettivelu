@@ -1,0 +1,6 @@
+SupportID,SupportMessage,Entity,Entity_Type,NER_Method,SupportCategory
+SMT-005,The light works near the router but fails in the bedroom in Brampton. #HomeIQ,Brampton,GPE,NLTK ne_chunk,Connectivity
+SMT-002,The app did not notify me when the back door opened.,No clear named entity detected,None,NLTK ne_chunk,Security_Alert
+SMT-003,"My smart light stopped working after two weeks, and I need a warranty replacement.",Smart Light,Device/Product,Rule-based fallback,Warranty_Return
+SMT-003,"My smart light stopped working after two weeks, and I need a warranty replacement.",week,Time/Date Expression,Rule-based fallback,Warranty_Return
+SMT-003,"My smart light stopped working after two weeks, and I need a warranty replacement.",weeks,Time/Date Expression,Rule-based fallback,Warranty_Return

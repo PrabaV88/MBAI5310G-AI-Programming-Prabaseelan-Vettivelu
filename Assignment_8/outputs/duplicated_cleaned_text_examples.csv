@@ -1,0 +1,101 @@
+SupportID,SupportCategory,Cleaned_Text
+SMT-057,Voice_Assistant,alexa turn wrong light say live room lamp
+SMT-076,Voice_Assistant,alexa turn wrong light say live room lamp
+SMT-096,Voice_Assistant,alexa turn wrong light say live room lamp
+SMT-103,Voice_Assistant,alexa turn wrong light say live room lamp
+SMT-002,Security_Alert,app notifi back door open
+SMT-053,Security_Alert,app notifi back door open
+SMT-059,Security_Alert,app notifi back door open
+SMT-099,Security_Alert,app notifi back door open
+SMT-033,Energy_Saving,app say save percent chart hard understand
+SMT-073,Energy_Saving,app say save percent chart hard understand
+SMT-084,Energy_Saving,app say save percent chart hard understand
+SMT-104,Energy_Saving,app say save percent chart hard understand
+SMT-119,Energy_Saving,app say save percent chart hard understand
+SMT-044,Connectivity,bluetooth pair fail latest firmwar updat
+SMT-074,Connectivity,bluetooth pair fail latest firmwar updat
+SMT-108,Connectivity,bluetooth pair fail latest firmwar updat
+SMT-118,Connectivity,bluetooth pair fail latest firmwar updat
+SMT-014,Security_Alert,camera stop record secur alert june
+SMT-022,Security_Alert,camera stop record secur alert june
+SMT-024,Security_Alert,camera stop record secur alert june
+SMT-040,Security_Alert,camera stop record secur alert june
+SMT-066,Security_Alert,camera stop record secur alert june
+SMT-025,Installation,cannot instal homeiq thermostat app recogn qr code
+SMT-054,Installation,cannot instal homeiq thermostat app recogn qr code
+SMT-061,Installation,cannot instal homeiq thermostat app recogn qr code
+SMT-100,Installation,cannot instal homeiq thermostat app recogn qr code
+SMT-021,Security_Alert,door sensor sent motion alert one
+SMT-077,Security_Alert,door sensor sent motion alert one
+SMT-092,Security_Alert,door sensor sent motion alert one
+SMT-114,Security_Alert,door sensor sent motion alert one
+SMT-012,Voice_Assistant,googl assist cannot find homeiq thermostat anymor
+SMT-017,Voice_Assistant,googl assist cannot find homeiq thermostat anymor
+SMT-018,Voice_Assistant,googl assist cannot find homeiq thermostat anymor
+SMT-032,Voice_Assistant,googl assist cannot find homeiq thermostat anymor
+SMT-072,Voice_Assistant,googl assist cannot find homeiq thermostat anymor
+SMT-010,Warranty_Return,homeiq approv warranti claim receiv replac devic
+SMT-042,Warranty_Return,homeiq approv warranti claim receiv replac devic
+SMT-060,Warranty_Return,homeiq approv warranti claim receiv replac devic
+SMT-097,Warranty_Return,homeiq approv warranti claim receiv replac devic
+SMT-023,Security_Alert,homeiq secur alert delay almost minut
+SMT-067,Security_Alert,homeiq secur alert delay almost minut
+SMT-081,Security_Alert,homeiq secur alert delay almost minut
+SMT-107,Security_Alert,homeiq secur alert delay almost minut
+SMT-011,Energy_Saving,homeiq send monthli energi tip hous calgari
+SMT-028,Energy_Saving,homeiq send monthli energi tip hous calgari
+SMT-045,Energy_Saving,homeiq send monthli energi tip hous calgari
+SMT-016,Warranty_Return,hub arriv damag return label link broken
+SMT-036,Warranty_Return,hub arriv damag return label link broken
+SMT-058,Warranty_Return,hub arriv damag return label link broken
+SMT-064,Warranty_Return,hub arriv damag return label link broken
+SMT-102,Warranty_Return,hub arriv damag return label link broken
+SMT-029,Connectivity,light work near router fail bedroom vancouv
+SMT-031,Connectivity,light work near router fail bedroom vancouv
+SMT-050,Connectivity,light work near router fail bedroom vancouv
+SMT-008,Warranty_Return,return camera work wi fi
+SMT-065,Warranty_Return,return camera work wi fi
+SMT-085,Warranty_Return,return camera work wi fi
+SMT-088,Warranty_Return,return camera work wi fi
+SMT-009,Energy_Saving,schedul featur work well reduc heat night
+SMT-093,Energy_Saving,schedul featur work well reduc heat night
+SMT-098,Energy_Saving,schedul featur work well reduc heat night
+SMT-106,Energy_Saving,schedul featur work well reduc heat night
+SMT-035,Connectivity,secur camera disconnect wi fi everi night pm
+SMT-049,Connectivity,secur camera disconnect wi fi everi night pm
+SMT-071,Connectivity,secur camera disconnect wi fi everi night pm
+SMT-083,Connectivity,secur camera disconnect wi fi everi night pm
+SMT-052,Installation,setup guid clear instal camera hamilton minut
+SMT-069,Installation,setup guid clear instal camera hamilton minut
+SMT-087,Installation,setup guid clear instal camera hamilton minut
+SMT-027,Installation,setup guid clear instal camera oshawa minut
+SMT-046,Installation,setup guid clear instal camera oshawa minut
+SMT-003,Warranty_Return,smart light stop work two week need warranti replac
+SMT-048,Warranty_Return,smart light stop work two week need warranti replac
+SMT-111,Warranty_Return,smart light stop work two week need warranti replac
+SMT-120,Warranty_Return,smart light stop work two week need warranti replac
+SMT-019,Connectivity,smart speaker cannot find homeiq hub even though onlin
+SMT-020,Connectivity,smart speaker cannot find homeiq hub even though onlin
+SMT-051,Connectivity,smart speaker cannot find homeiq hub even though onlin
+SMT-109,Connectivity,smart speaker cannot find homeiq hub even though onlin
+SMT-115,Connectivity,smart speaker cannot find homeiq hub even though onlin
+SMT-007,Installation,someon explain pair hub mount sensor
+SMT-030,Installation,someon explain pair hub mount sensor
+SMT-041,Installation,someon explain pair hub mount sensor
+SMT-117,Installation,someon explain pair hub mount sensor
+SMT-006,Energy_Saving,thermostat report help lower energi use week
+SMT-080,Energy_Saving,thermostat report help lower energi use week
+SMT-082,Energy_Saving,thermostat report help lower energi use week
+SMT-113,Energy_Saving,thermostat report help lower energi use week
+SMT-001,Voice_Assistant,voic command work yesterday today speaker say devic unavail
+SMT-004,Voice_Assistant,voic command work yesterday today speaker say devic unavail
+SMT-055,Voice_Assistant,voic command work yesterday today speaker say devic unavail
+SMT-062,Voice_Assistant,voic command work yesterday today speaker say devic unavail
+SMT-013,Installation,wall plate fit old thermostat wire
+SMT-034,Installation,wall plate fit old thermostat wire
+SMT-101,Installation,wall plate fit old thermostat wire
+SMT-116,Installation,wall plate fit old thermostat wire
+SMT-068,Voice_Assistant,want renam camera siri recogn
+SMT-090,Voice_Assistant,want renam camera siri recogn
+SMT-091,Voice_Assistant,want renam camera siri recogn
+SMT-094,Voice_Assistant,want renam camera siri recogn

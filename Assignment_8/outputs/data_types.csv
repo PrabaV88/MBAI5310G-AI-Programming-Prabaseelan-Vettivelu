@@ -1,0 +1,10 @@
+Column,Data Type
+SupportID,str
+SupportDate,datetime64[us]
+Channel,str
+City,str
+DeviceType,str
+CustomerSegment,str
+SupportMessage,str
+SupportCategory,str
+IssueSeverity,str

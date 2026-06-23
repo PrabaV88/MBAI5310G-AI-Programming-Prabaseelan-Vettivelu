@@ -1,0 +1,7 @@
+SupportCategory,precision,recall,f1-score,support
+Connectivity,1.0,1.0,1.0,4.0
+Energy_Saving,1.0,1.0,1.0,4.0
+Installation,1.0,1.0,1.0,4.0
+Security_Alert,1.0,1.0,1.0,4.0
+Voice_Assistant,1.0,1.0,1.0,4.0
+Warranty_Return,1.0,1.0,1.0,4.0

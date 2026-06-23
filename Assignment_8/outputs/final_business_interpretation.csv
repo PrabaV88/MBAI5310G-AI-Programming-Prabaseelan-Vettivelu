@@ -1,0 +1,11 @@
+Item,Explanation
+What the model predicts,The model predicts the support category of a smart home customer message.
+Dataset used,NLP_Dataset_16_Smart_Home_Device_Support.xlsx
+Text column,SupportMessage
+Target variable,SupportCategory
+Preprocessing steps,"Lowercase conversion, punctuation removal, tokenization, stopword removal, and stemming."
+Feature extraction method,TF-IDF with unigrams and bigrams.
+Model used,Logistic Regression
+Accuracy,100.00%
+Business insight,"Frequent words show that customers often discuss devices, alerts, warranty, voice assistant issues, connectivity, setup, and energy usage."
+Limitation,"The dataset is synthetic, balanced, and relatively small. Real customer support messages may be more complex, ambiguous, and noisy."

@@ -1,0 +1,11 @@
+Anchor_Term,Connectivity,Energy_Saving,Installation,Security_Alert,Voice_Assistant,Warranty_Return
+alert,0,0,0,15,0,0
+assist,0,0,0,0,5,0
+bluetooth,5,0,0,0,0,0
+connect,0,0,0,0,0,0
+energi,0,10,0,0,0,0
+instal,0,0,10,0,0,0
+return,0,0,0,0,0,10
+voic,0,0,0,0,5,0
+warranti,0,0,0,0,0,10
+wifi,0,0,0,0,0,0
